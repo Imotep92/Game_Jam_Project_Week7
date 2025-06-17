@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      enemy1 perish_0: 268440595930578572
+      enemy1 perish_1: 1999773685370099294
+      enemy1 perish_2: 1091475789862578270
+      enemy1 perish_3: 1625425774964449058
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
