@@ -40,11 +40,11 @@ public class GameController : MonoBehaviour
     private void Start()
     {
         // set reference to the audio source component
-        audioPlayer = GetComponent<AudioSource>();
+        ///audioPlayer = GetComponent<AudioSource>();
 
 
         // load the main menu
-        LoadMainMenu();
+        ///LoadMainMenu();
     }
 
 
