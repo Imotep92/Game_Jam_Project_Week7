@@ -586,7 +586,7 @@ Tilemap:
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
-      m_AllTileFlags: 1
+      m_AllTileFlags: 1073741825
   - first: {x: 0, y: 0, z: 0}
     second:
       serializedVersion: 2
@@ -836,7 +836,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: b29a9f50b0a11944f8c0f6211b5d9d86, type: 2}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: e3cdc4d7d38a8bc448f2c87e3ab1ae8b, type: 2}
+    m_Data: {fileID: 11400000, guid: 28115652725a42f4b9255eda16fea6bb, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: e15689c0dc4e5ae4db2f799369089f26, type: 2}
   - m_RefCount: 1
@@ -965,7 +965,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 4850107965212417972, guid: fffd7cf32ae20e84cba373590dd03da4, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: 21300000, guid: 8dd787bfa63b14a9fa3567aac07ec808, type: 3}
+    m_Data: {fileID: -722066687530911221, guid: fffd7cf32ae20e84cba373590dd03da4, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -3669385620740498905, guid: fffd7cf32ae20e84cba373590dd03da4, type: 3}
   - m_RefCount: 1
@@ -1042,7 +1042,7 @@ TilemapRenderer:
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
-  m_DynamicOccludee: 0
+  m_DynamicOccludee: 1
   m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
@@ -1084,7 +1084,7 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
---- !u!114 &7592958043097336190
+--- !u!114 &8037216970536147463
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
