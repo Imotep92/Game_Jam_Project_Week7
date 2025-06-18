@@ -1,13 +1,16 @@
 fileFormatVersion: 2
-guid: 01f609f4bc1378a4a8cf51f6468bc02b
+guid: dbacd81197e644539bac0ebb42264cf5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -929793236205908454
-    second: player run 1b_0
+      213: -7732209789026529413
+    second: blood splat_0
   - first:
-      213: 2599166969282593703
-    second: player run 1b_1
+      213: 3055123645106321738
+    second: blood splat_1
+  - first:
+      213: 867094453905497975
+    second: blood splat_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -116,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player run 1b_0
+      name: blood splat_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 32
-        height: 32
+        x: 11
+        y: 44
+        width: 42
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a1ec2695af5b813f0800000000000000
-      internalID: -929793236205908454
+      spriteID: b7f8644f92ca1b490800000000000000
+      internalID: -7732209789026529413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player run 1b_1
+      name: blood splat_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
+        x: 3
+        y: 9
+        width: 11
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,96 +156,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a3840c6698121420800000000000000
-      internalID: 2599166969282593703
+      spriteID: a49757bb4caf56a20800000000000000
+      internalID: 3055123645106321738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player run 1b_2
+      name: blood splat_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
-        width: 32
-        height: 32
+        x: 16
+        y: 11
+        width: 9
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: cee36666b655a4abd95e54fff6fd7cd4
-      internalID: 892128337
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player run 1b_3
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4fb2e7aa906ee4751a766276a5644d0d
-      internalID: -641296942
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player run 1b_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 65dd1ca2a878d4c3d9220adfca77ae47
-      internalID: -1954366807
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player run 1b_5
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84093adbaf28a43ef8256cecac7e2659
-      internalID: 1166943787
+      spriteID: 77f9fbfcfc9880c00800000000000000
+      internalID: 867094453905497975
       vertices: []
       indices: 
       edges: []
@@ -251,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 2eca5954339d74a19a712f721ea4fa73
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -259,16 +196,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
-    nameFileIdTable:
-      player run 1b_0: -929793236205908454
-      player run 1b_1: 2599166969282593703
-      player run 1b_2: 892128337
-      player run 1b_3: -641296942
-      player run 1b_4: -1954366807
-      player run 1b_5: 1166943787
+      entries: []
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
