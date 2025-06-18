@@ -129,7 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7065316}
   - component: {fileID: 7065315}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -188,7 +188,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &7065316
@@ -216,7 +216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 29919512}
   - component: {fileID: 29919513}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (78)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -290,7 +290,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &40444610
@@ -390,7 +390,7 @@ GameObject:
   m_Component:
   - component: {fileID: 55528132}
   - component: {fileID: 55528133}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (69)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -464,7 +464,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &63453303
@@ -564,7 +564,7 @@ GameObject:
   m_Component:
   - component: {fileID: 71168461}
   - component: {fileID: 71168462}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (80)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -638,7 +638,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &75639393
@@ -813,7 +813,7 @@ GameObject:
   m_Component:
   - component: {fileID: 80875943}
   - component: {fileID: 80875942}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (56)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -872,7 +872,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &80875943
@@ -900,7 +900,7 @@ GameObject:
   m_Component:
   - component: {fileID: 81136374}
   - component: {fileID: 81136375}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (74)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -974,7 +974,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &130771652
@@ -1123,7 +1123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 133794514}
   - component: {fileID: 133794513}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (59)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1182,7 +1182,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &133794514
@@ -1246,7 +1246,7 @@ GameObject:
   m_Component:
   - component: {fileID: 169131601}
   - component: {fileID: 169131600}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1305,7 +1305,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &169131601
@@ -1420,7 +1420,7 @@ GameObject:
   m_Component:
   - component: {fileID: 170716172}
   - component: {fileID: 170716171}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Door_and_wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1479,7 +1479,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &170716172
@@ -1506,6 +1506,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 178698350}
+  - component: {fileID: 178698351}
   - component: {fileID: 178698349}
   m_Layer: 0
   m_Name: Game Controller
@@ -1550,6 +1551,103 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &178698351
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178698348}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -5340302818635669694, guid: d177b22fa779b0e4ba31f5b4540a7bf9, type: 2}
+  m_audioClip: {fileID: 8300000, guid: bc1109a043effab46837c920465284c9, type: 3}
+  m_Resource: {fileID: 8300000, guid: bc1109a043effab46837c920465284c9, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &179845481
 GameObject:
   m_ObjectHideFlags: 0
@@ -1647,7 +1745,7 @@ GameObject:
   m_Component:
   - component: {fileID: 198281116}
   - component: {fileID: 198281115}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1706,7 +1804,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &198281116
@@ -3108,7 +3206,7 @@ GameObject:
   m_Component:
   - component: {fileID: 371793940}
   - component: {fileID: 371793939}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Door_and_wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3167,7 +3265,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &371793940
@@ -3459,7 +3557,7 @@ GameObject:
   m_Component:
   - component: {fileID: 435894776}
   - component: {fileID: 435894775}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3518,7 +3616,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &435894776
@@ -3546,7 +3644,7 @@ GameObject:
   m_Component:
   - component: {fileID: 437141820}
   - component: {fileID: 437141819}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Door_and_wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3605,7 +3703,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &437141820
@@ -3633,7 +3731,7 @@ GameObject:
   m_Component:
   - component: {fileID: 476189769}
   - component: {fileID: 476189770}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (77)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3707,7 +3805,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &477301199
@@ -3785,7 +3883,7 @@ GameObject:
   m_Component:
   - component: {fileID: 477756838}
   - component: {fileID: 477756837}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (63)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3844,7 +3942,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &477756838
@@ -4224,7 +4322,7 @@ GameObject:
   m_Component:
   - component: {fileID: 503150963}
   - component: {fileID: 503150964}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4298,7 +4396,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &510324456
@@ -4885,7 +4983,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 539304936}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7220,7 +7318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 637396760}
   - component: {fileID: 637396759}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7279,7 +7377,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &637396760
@@ -7307,7 +7405,7 @@ GameObject:
   m_Component:
   - component: {fileID: 638049268}
   - component: {fileID: 638049267}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (57)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7366,7 +7464,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &638049268
@@ -7394,7 +7492,7 @@ GameObject:
   m_Component:
   - component: {fileID: 642539533}
   - component: {fileID: 642539534}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (67)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7468,7 +7566,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &652856558
@@ -7731,7 +7829,7 @@ GameObject:
   m_Component:
   - component: {fileID: 665491126}
   - component: {fileID: 665491127}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (79)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7805,7 +7903,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &693501647
@@ -7928,7 +8026,7 @@ GameObject:
   m_Component:
   - component: {fileID: 709265837}
   - component: {fileID: 709265838}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (66)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8002,7 +8100,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &712234169
@@ -11454,7 +11552,7 @@ GameObject:
   m_Component:
   - component: {fileID: 796420819}
   - component: {fileID: 796420818}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11513,7 +11611,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &796420819
@@ -11628,7 +11726,7 @@ GameObject:
   m_Component:
   - component: {fileID: 824719607}
   - component: {fileID: 824719606}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (53)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11687,7 +11785,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &824719607
@@ -12166,7 +12264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 924791107}
   - component: {fileID: 924791108}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (68)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12240,7 +12338,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &926244598
@@ -12405,7 +12503,7 @@ GameObject:
   m_Component:
   - component: {fileID: 937773645}
   - component: {fileID: 937773646}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (81)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12479,7 +12577,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &937822408
@@ -12492,7 +12590,7 @@ GameObject:
   m_Component:
   - component: {fileID: 937822410}
   - component: {fileID: 937822409}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12551,7 +12649,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &937822410
@@ -12712,7 +12810,7 @@ GameObject:
   m_Component:
   - component: {fileID: 961038744}
   - component: {fileID: 961038743}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12771,7 +12869,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &961038744
@@ -12948,7 +13046,7 @@ GameObject:
   m_Component:
   - component: {fileID: 977518335}
   - component: {fileID: 977518334}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (64)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13007,7 +13105,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &977518335
@@ -13941,7 +14039,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1091812170}
   - component: {fileID: 1091812171}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (73)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14015,7 +14113,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1099504966
@@ -14028,7 +14126,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1099504968}
   - component: {fileID: 1099504967}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (60)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14087,7 +14185,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1099504968
@@ -14334,7 +14432,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1126677917}
   - component: {fileID: 1126677916}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14393,7 +14491,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1126677917
@@ -14421,7 +14519,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1148785821}
   - component: {fileID: 1148785822}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (75)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14495,7 +14593,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1153748992
@@ -14773,7 +14871,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1189203851}
   - component: {fileID: 1189203852}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14847,7 +14945,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1199712614
@@ -14935,7 +15033,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1230245600}
   - component: {fileID: 1230245599}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14994,7 +15092,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1230245600
@@ -15063,7 +15161,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1244700923}
   - component: {fileID: 1244700922}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15122,7 +15220,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1244700923
@@ -15237,7 +15335,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1248008901}
   - component: {fileID: 1248008900}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15296,7 +15394,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1248008901
@@ -15396,7 +15494,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1275181495}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 178698349}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: PlayButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1275181495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15634,7 +15744,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1306470264}
   - component: {fileID: 1306470265}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (72)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15708,7 +15818,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1308078494
@@ -16303,7 +16413,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1325809103}
   - component: {fileID: 1325809102}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16362,7 +16472,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1325809103
@@ -16527,7 +16637,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1334822257}
   - component: {fileID: 1334822256}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16586,7 +16696,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1334822257
@@ -16677,7 +16787,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1337369831}
   - component: {fileID: 1337369830}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (55)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16736,7 +16846,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1337369831
@@ -16987,7 +17097,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1351680665}
   - component: {fileID: 1351680664}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17046,7 +17156,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1351680665
@@ -17300,7 +17410,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1395054454}
   - component: {fileID: 1395054455}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17374,7 +17484,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1413400878
@@ -17387,7 +17497,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1413400880}
   - component: {fileID: 1413400879}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17446,7 +17556,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1413400880
@@ -17474,7 +17584,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1424390372}
   - component: {fileID: 1424390371}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17533,7 +17643,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1424390372
@@ -17975,7 +18085,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1451320712}
   - component: {fileID: 1451320711}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (54)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18034,7 +18144,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1451320712
@@ -18149,7 +18259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1480523254}
   - component: {fileID: 1480523253}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18208,7 +18318,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1480523254
@@ -18369,7 +18479,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1484007106}
   - component: {fileID: 1484007107}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18443,7 +18553,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1513858128
@@ -18456,7 +18566,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1513858130}
   - component: {fileID: 1513858129}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Door_and_wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18515,7 +18625,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1513858130
@@ -19027,7 +19137,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1539850899}
   - component: {fileID: 1539850898}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19086,7 +19196,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1539850899
@@ -19114,7 +19224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1542645453}
   - component: {fileID: 1542645452}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19173,7 +19283,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1542645453
@@ -19424,7 +19534,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1574214913}
   - component: {fileID: 1574214912}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19483,7 +19593,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1574214913
@@ -19586,7 +19696,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1597059953}
   - component: {fileID: 1597059952}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Door_and_wall (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19645,7 +19755,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1597059953
@@ -21221,7 +21331,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1598916482}
   - component: {fileID: 1598916481}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (58)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21280,7 +21390,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1598916482
@@ -21308,7 +21418,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1599761299}
   - component: {fileID: 1599761300}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (70)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21382,7 +21492,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1617568736
@@ -21394,13 +21504,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1617568737}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1617568737
 Transform:
   m_ObjectHideFlags: 0
@@ -21476,7 +21586,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1655076167}
   - component: {fileID: 1655076168}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (85)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21550,7 +21660,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1675232810
@@ -21563,7 +21673,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1675232811}
   - component: {fileID: 1675232812}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (84)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21637,7 +21747,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1681180467
@@ -21650,7 +21760,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1681180469}
   - component: {fileID: 1681180468}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21709,7 +21819,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1681180469
@@ -21950,7 +22060,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1721430848}
   - component: {fileID: 1721430847}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (61)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22009,7 +22119,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1721430848
@@ -22037,7 +22147,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1723338649}
   - component: {fileID: 1723338650}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (82)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22111,7 +22221,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1753962634
@@ -22124,7 +22234,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1753962636}
   - component: {fileID: 1753962635}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: enemy1_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22183,7 +22293,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1753962636
@@ -22211,7 +22321,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1780158437}
   - component: {fileID: 1780158436}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22270,7 +22380,7 @@ SpriteRenderer:
   m_Size: {x: 2, y: 0.7}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1780158437
@@ -22336,7 +22446,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1793670062}
   - component: {fileID: 1793670063}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (83)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22410,7 +22520,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1800033103
@@ -22423,7 +22533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1800033105}
   - component: {fileID: 1800033104}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: enemy1 perish_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22482,7 +22592,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1800033105
@@ -22510,7 +22620,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1802454441}
   - component: {fileID: 1802454442}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (71)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22584,7 +22694,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1818661198
@@ -22597,7 +22707,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1818661200}
   - component: {fileID: 1818661199}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (62)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22656,7 +22766,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1818661200
@@ -22684,7 +22794,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1819718527}
   - component: {fileID: 1819718526}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Firefly
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23193,7 +23303,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1864829016}
   - component: {fileID: 1864829015}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (65)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23252,7 +23362,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1864829016
@@ -23414,7 +23524,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1887415595}
   - component: {fileID: 1887415594}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23473,7 +23583,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1887415595
@@ -23837,7 +23947,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1964502770}
   - component: {fileID: 1964502769}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23896,7 +24006,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1964502770
@@ -24398,7 +24508,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2000303514}
   - component: {fileID: 2000303515}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (76)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24472,7 +24582,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2002096461
@@ -24597,7 +24707,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2006598762}
   - component: {fileID: 2006598761}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24656,7 +24766,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &2006598762
@@ -25076,7 +25186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2055972074}
   - component: {fileID: 2055972073}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25135,7 +25245,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &2055972074
@@ -26786,7 +26896,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2096388886}
   - component: {fileID: 2096388885}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26845,7 +26955,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &2096388886
@@ -27181,7 +27291,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2113635125}
   - component: {fileID: 2113635124}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27240,7 +27350,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &2113635125
@@ -27268,7 +27378,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2117214538}
   - component: {fileID: 2117214537}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27327,7 +27437,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &2117214538
@@ -27355,7 +27465,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2139174110}
   - component: {fileID: 2139174109}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Pixel_wall (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27414,7 +27524,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &2139174110
