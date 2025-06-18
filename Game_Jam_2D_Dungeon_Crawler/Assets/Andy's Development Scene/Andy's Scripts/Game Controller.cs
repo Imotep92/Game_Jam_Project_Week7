@@ -40,11 +40,11 @@ public class GameController : MonoBehaviour
     private void Start()
     {
         // set reference to the audio source component
-        ///audioPlayer = GetComponent<AudioSource>();
+        audioPlayer = GetComponent<AudioSource>();
 
 
         // load the main menu
-        ///LoadMainMenu();
+        LoadMainMenu();
     }
 
 
@@ -114,9 +114,6 @@ public class GameController : MonoBehaviour
 
         // close the main menu
         titleScreen.SetActive(false);
-
-        // display the player ui panel
-        playerUiPanel.SetActive(true);
 
         // set the game in play flag
         inPlay = true;

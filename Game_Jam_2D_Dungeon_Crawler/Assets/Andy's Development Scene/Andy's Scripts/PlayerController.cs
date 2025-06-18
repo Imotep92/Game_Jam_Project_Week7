@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    // make player controller script accessible from other scripts
-    public static PlayerController playerControllerScript;
-
     // reference to rigidbody component
     public Rigidbody2D playerRigidbody;
 
@@ -14,15 +11,7 @@ public class PlayerController : MonoBehaviour
     public float playerMoveSpeed;
 
     // player's input controls
-    private Vector2 playerMovementInput;
-
-
-
-    private void Awake()
-    {
-        // set reference to player controller script
-        playerControllerScript = this;
-    }
+    private Vector2 movementInput;
 
 
 
@@ -47,13 +36,10 @@ public class PlayerController : MonoBehaviour
     private void GetPlayerInput()
     {
         // horizontal movement
-        playerMovementInput.x = Input.GetAxisRaw("Horizontal");
+        movementInput.x = Input.GetAxisRaw("Horizontal");
 
         // vertical movement
-        playerMovementInput.y = Input.GetAxisRaw("Vertical");
-
-        // normalise the player's input
-        playerMovementInput.Normalize();
+        movementInput.y = Input.GetAxisRaw("Vertical");
     }
 
 
@@ -61,7 +47,7 @@ public class PlayerController : MonoBehaviour
     {
         //transform.position += new Vector3(movementInput.x * Time.deltaTime * playerMoveSpeed, movementInput.y * Time.deltaTime * playerMoveSpeed, transform.position.z);
 
-        playerRigidbody.linearVelocity = playerMovementInput * playerMoveSpeed;
+        playerRigidbody.linearVelocity = movementInput * playerMoveSpeed;
     }
 
 
