@@ -43,4 +43,12 @@ public class PlayerBullet : MonoBehaviour
     }
 
 
+    // if the bullet moves out of camera view
+    private void OnBecameInvisible()
+    {
+        // destroy the bullet
+        Destroy(gameObject);
+    }
+
+
 } // end of class

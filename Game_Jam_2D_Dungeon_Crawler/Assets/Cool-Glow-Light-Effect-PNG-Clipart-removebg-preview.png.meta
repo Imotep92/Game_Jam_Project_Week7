@@ -436,6 +436,32 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -2872,7 +2898,117 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_0: 6651283248356734934
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_1: 5927449318965135343
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_10: 4963777436440279716
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_100: -7680740693065642729
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_101: -7656476356989410559
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_102: -5727424166854568874
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_103: 6792673579591039231
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_104: 2551863540924126413
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_105: -3711559487564612832
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_106: 7757497500598614623
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_107: 7647031312219295984
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_108: -401673236209691284
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_109: -1591300536298708624
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_11: -3040891216021959066
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_12: 635129282408498013
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_13: 8468703391591030541
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_14: 1027030432626877027
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_15: 1773284382418284206
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_16: -1317566475908822464
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_17: 2608326932698656975
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_18: -8113792151786915860
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_19: 3024238704176785333
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_2: -1830236467334122261
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_20: 4678345085801516809
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_21: -6345488642333691143
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_22: -2775020801434735872
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_23: -7287000511436023365
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_24: -6482447263804423588
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_25: -1322846633922384124
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_26: 6110772468485997090
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_27: 6456948477344608041
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_28: 4160867095758987588
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_29: -5372002453569390580
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_3: 6112887286939934780
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_30: 8846388473546642763
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_31: 1171926187207805178
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_32: -6497195914258240377
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_33: 6602957319831508449
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_34: -354459008927045323
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_35: -4209417501272459865
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_36: -3192960551843690436
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_37: 4153826672543724772
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_38: -7320450662879294703
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_39: -7220657847196654195
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_4: -7338002788139372076
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_40: -6280146729233906435
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_41: -5114709544866273275
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_42: 1850295558612094684
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_43: -4966243308352434529
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_44: -5782992415105988582
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_45: 5131342126506213042
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_46: -5728860780152479436
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_47: -95684693441679820
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_48: 476734577697020239
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_49: 5984900439331157865
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_5: -2056103920105619919
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_50: -3660080340396656270
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_51: 2129128795265676027
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_52: 1719651283125801601
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_53: -2049987038500114222
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_54: -7599399165757436613
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_55: -5403010480723380243
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_56: -384928567259340296
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_57: 1206854108869784916
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_58: -7458504444588370661
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_59: 8752274864373942861
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_6: -6969660146740384950
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_60: 4014276406705681487
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_61: -6287154566212932490
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_62: 4575232234387659985
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_63: -7111963620643663100
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_64: 2471248099280411459
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_65: 6067649922463457364
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_66: 8287507481423992459
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_67: -5135544406125300719
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_68: -3357414053174713137
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_69: 8122594776564942188
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_7: 4878960325575535035
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_70: 2892331203883936149
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_71: -7947486347882094272
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_72: 2590685252381266376
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_73: -1064574875428827155
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_74: 4335563647346097678
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_75: 6060907378480804714
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_76: 768277214585128131
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_77: 4097900371624690515
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_78: -3718528849109922232
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_79: 6086547376188629869
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_8: 57928461309837886
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_80: 5133847624008524286
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_81: 4448932477475104414
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_82: -7039767079901808738
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_83: 2276808539419188130
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_84: -8643443302122396741
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_85: -7484107393102157976
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_86: 1059245510189233452
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_87: 5803936058345953292
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_88: -2774155011896130888
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_89: 136794845943179177
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_9: -7382117207716234598
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_90: 6141908103304878273
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_91: 5424051182795048121
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_92: 4746966205955669597
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_93: 7009575035561247667
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_94: -105252764610419896
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_95: -1796184709618061424
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_96: -4529533725800211876
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_97: -948083595189109336
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_98: -4678417409683678699
+      Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_99: 1444134398521819713
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

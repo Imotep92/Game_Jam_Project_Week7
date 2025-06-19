@@ -28,6 +28,9 @@ public class PlayerController : MonoBehaviour
     // position to fire bullet from
     public Transform firePosition;
 
+    // if player has remote control
+    private bool playerHasRemote;
+
 
 
     private void Awake()
@@ -75,11 +78,15 @@ public class PlayerController : MonoBehaviour
         SetPlayerSpriteDirection();
 
         // player firing
-        // if the player presses the space bar
-        if (Input.GetKeyDown(KeyCode.Space))
+        // if the player is holding the remote control
+        if (playerHasRemote)
         {
-            // fire a bullet
-            Instantiate(playerBullet, firePosition.position, firePosition.rotation);
+            // if the player presses the space bar
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                // fire a bullet
+                Instantiate(playerBullet, firePosition.position, firePosition.rotation);
+            }
         }
     }
 
