@@ -372,7 +372,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      injured boss eye_0: -5038674048737802239
+      injured boss eye_1: -8583113262586614467
+      injured boss eye_2: -6492447679952774276
+      injured boss eye_3: -4721565574163864588
+      injured boss eye_4: -4327864578337376974
+      injured boss eye_5: 5406000896276942298
+      injured boss eye_6: -4955287754232843406
+      injured boss eye_7: -6989444831787814493
+      injured boss eye_8: 9161370994719147265
+      injured boss eye_9: -8952360561047116842
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
