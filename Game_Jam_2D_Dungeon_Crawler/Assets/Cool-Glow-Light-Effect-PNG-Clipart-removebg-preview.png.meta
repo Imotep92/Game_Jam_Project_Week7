@@ -1,0 +1,2880 @@
+fileFormatVersion: 2
+guid: c9ca02a60975ac6418898a0bbc7adaca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6651283248356734934
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_0
+  - first:
+      213: 5927449318965135343
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_1
+  - first:
+      213: -1830236467334122261
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_2
+  - first:
+      213: 6112887286939934780
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_3
+  - first:
+      213: -7338002788139372076
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_4
+  - first:
+      213: -2056103920105619919
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_5
+  - first:
+      213: -6969660146740384950
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_6
+  - first:
+      213: 4878960325575535035
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_7
+  - first:
+      213: 57928461309837886
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_8
+  - first:
+      213: -7382117207716234598
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_9
+  - first:
+      213: 4963777436440279716
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_10
+  - first:
+      213: -3040891216021959066
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_11
+  - first:
+      213: 635129282408498013
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_12
+  - first:
+      213: 8468703391591030541
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_13
+  - first:
+      213: 1027030432626877027
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_14
+  - first:
+      213: 1773284382418284206
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_15
+  - first:
+      213: -1317566475908822464
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_16
+  - first:
+      213: 2608326932698656975
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_17
+  - first:
+      213: -8113792151786915860
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_18
+  - first:
+      213: 3024238704176785333
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_19
+  - first:
+      213: 4678345085801516809
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_20
+  - first:
+      213: -6345488642333691143
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_21
+  - first:
+      213: -2775020801434735872
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_22
+  - first:
+      213: -7287000511436023365
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_23
+  - first:
+      213: -6482447263804423588
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_24
+  - first:
+      213: -1322846633922384124
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_25
+  - first:
+      213: 6110772468485997090
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_26
+  - first:
+      213: 6456948477344608041
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_27
+  - first:
+      213: 4160867095758987588
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_28
+  - first:
+      213: -5372002453569390580
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_29
+  - first:
+      213: 8846388473546642763
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_30
+  - first:
+      213: 1171926187207805178
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_31
+  - first:
+      213: -6497195914258240377
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_32
+  - first:
+      213: 6602957319831508449
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_33
+  - first:
+      213: -354459008927045323
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_34
+  - first:
+      213: -4209417501272459865
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_35
+  - first:
+      213: -3192960551843690436
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_36
+  - first:
+      213: 4153826672543724772
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_37
+  - first:
+      213: -7320450662879294703
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_38
+  - first:
+      213: -7220657847196654195
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_39
+  - first:
+      213: -6280146729233906435
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_40
+  - first:
+      213: -5114709544866273275
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_41
+  - first:
+      213: 1850295558612094684
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_42
+  - first:
+      213: -4966243308352434529
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_43
+  - first:
+      213: -5782992415105988582
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_44
+  - first:
+      213: 5131342126506213042
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_45
+  - first:
+      213: -5728860780152479436
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_46
+  - first:
+      213: -95684693441679820
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_47
+  - first:
+      213: 476734577697020239
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_48
+  - first:
+      213: 5984900439331157865
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_49
+  - first:
+      213: -3660080340396656270
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_50
+  - first:
+      213: 2129128795265676027
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_51
+  - first:
+      213: 1719651283125801601
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_52
+  - first:
+      213: -2049987038500114222
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_53
+  - first:
+      213: -7599399165757436613
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_54
+  - first:
+      213: -5403010480723380243
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_55
+  - first:
+      213: -384928567259340296
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_56
+  - first:
+      213: 1206854108869784916
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_57
+  - first:
+      213: -7458504444588370661
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_58
+  - first:
+      213: 8752274864373942861
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_59
+  - first:
+      213: 4014276406705681487
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_60
+  - first:
+      213: -6287154566212932490
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_61
+  - first:
+      213: 4575232234387659985
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_62
+  - first:
+      213: -7111963620643663100
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_63
+  - first:
+      213: 2471248099280411459
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_64
+  - first:
+      213: 6067649922463457364
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_65
+  - first:
+      213: 8287507481423992459
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_66
+  - first:
+      213: -5135544406125300719
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_67
+  - first:
+      213: -3357414053174713137
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_68
+  - first:
+      213: 8122594776564942188
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_69
+  - first:
+      213: 2892331203883936149
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_70
+  - first:
+      213: -7947486347882094272
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_71
+  - first:
+      213: 2590685252381266376
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_72
+  - first:
+      213: -1064574875428827155
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_73
+  - first:
+      213: 4335563647346097678
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_74
+  - first:
+      213: 6060907378480804714
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_75
+  - first:
+      213: 768277214585128131
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_76
+  - first:
+      213: 4097900371624690515
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_77
+  - first:
+      213: -3718528849109922232
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_78
+  - first:
+      213: 6086547376188629869
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_79
+  - first:
+      213: 5133847624008524286
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_80
+  - first:
+      213: 4448932477475104414
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_81
+  - first:
+      213: -7039767079901808738
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_82
+  - first:
+      213: 2276808539419188130
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_83
+  - first:
+      213: -8643443302122396741
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_84
+  - first:
+      213: -7484107393102157976
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_85
+  - first:
+      213: 1059245510189233452
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_86
+  - first:
+      213: 5803936058345953292
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_87
+  - first:
+      213: -2774155011896130888
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_88
+  - first:
+      213: 136794845943179177
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_89
+  - first:
+      213: 6141908103304878273
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_90
+  - first:
+      213: 5424051182795048121
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_91
+  - first:
+      213: 4746966205955669597
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_92
+  - first:
+      213: 7009575035561247667
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_93
+  - first:
+      213: -105252764610419896
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_94
+  - first:
+      213: -1796184709618061424
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_95
+  - first:
+      213: -4529533725800211876
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_96
+  - first:
+      213: -948083595189109336
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_97
+  - first:
+      213: -4678417409683678699
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_98
+  - first:
+      213: 1444134398521819713
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_99
+  - first:
+      213: -7680740693065642729
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_100
+  - first:
+      213: -7656476356989410559
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_101
+  - first:
+      213: -5727424166854568874
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_102
+  - first:
+      213: 6792673579591039231
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_103
+  - first:
+      213: 2551863540924126413
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_104
+  - first:
+      213: -3711559487564612832
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_105
+  - first:
+      213: 7757497500598614623
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_106
+  - first:
+      213: 7647031312219295984
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_107
+  - first:
+      213: -401673236209691284
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_108
+  - first:
+      213: -1591300536298708624
+    second: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_109
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 464
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d73fc6dfda1e4c50800000000000000
+      internalID: 6651283248356734934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 419
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe74c0920c7824250800000000000000
+      internalID: 5927449318965135343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 392
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4759541a1b996e0800000000000000
+      internalID: -1830236467334122261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 404
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c306e0a999655d450800000000000000
+      internalID: 6112887286939934780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 391
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d17024b75d2a2a90800000000000000
+      internalID: -7338002788139372076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 381
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ef0dcd0604773e0800000000000000
+      internalID: -2056103920105619919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 371
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ba75cf50bc64f90800000000000000
+      internalID: -6969660146740384950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 337
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb96727f09c85b340800000000000000
+      internalID: 4878960325575535035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 358
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3202cee0adcdc000800000000000000
+      internalID: 57928461309837886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 354
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a76cff2837d8990800000000000000
+      internalID: -7382117207716234598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 263
+        width: 48
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa3f1b7741e2e440800000000000000
+      internalID: 4963777436440279716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 347
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ec764ec859cc5d0800000000000000
+      internalID: -3040891216021959066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 331
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d534860a7be60d800800000000000000
+      internalID: 635129282408498013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 342
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0fdde39dd0e68570800000000000000
+      internalID: 8468703391591030541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 306
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362ad3eacbeb04e00800000000000000
+      internalID: 1027030432626877027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 323
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae2ac320c8fb9810800000000000000
+      internalID: 1773284382418284206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 334
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04acd7b554017bde0800000000000000
+      internalID: -1317566475908822464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 326
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc076999683a23420800000000000000
+      internalID: 2608326932698656975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 331
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce77363d605066f80800000000000000
+      internalID: -8113792151786915860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 308
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7e17e041148f920800000000000000
+      internalID: 3024238704176785333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 314
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90fc4ef8112dce040800000000000000
+      internalID: 4678345085801516809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 316
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2bc6b13bb40f7a0800000000000000
+      internalID: -6345488642333691143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 308
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ba926a8452d79d0800000000000000
+      internalID: -2775020801434735872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 315
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb914cd94af5fda90800000000000000
+      internalID: -7287000511436023365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 312
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c520cbd1f88b906a0800000000000000
+      internalID: -6482447263804423588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 291
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f2cb4cefd44ade0800000000000000
+      internalID: -1322846633922384124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 278
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222485f0f23ddc450800000000000000
+      internalID: 6110772468485997090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 293
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92fef150e60bb9950800000000000000
+      internalID: 6456948477344608041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 307
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4416350149e5eb930800000000000000
+      internalID: 4160867095758987588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 278
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0838760b30d275b0800000000000000
+      internalID: -5372002453569390580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 294
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b459bde427fa4ca70800000000000000
+      internalID: 8846388473546642763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 281
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8cf7b78a4834010800000000000000
+      internalID: 1171926187207805178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 276
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ca4865db255d5a0800000000000000
+      internalID: -6497195914258240377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 138
+        width: 206
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e55f9bc2ba62ab50800000000000000
+      internalID: 6602957319831508449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 273
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539677dc865b41bf0800000000000000
+      internalID: -354459008927045323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 279
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5b755c5152595c0800000000000000
+      internalID: -4209417501272459865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 271
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38858d8b4350b3d0800000000000000
+      internalID: -3192960551843690436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 263
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4f28bc95b55a930800000000000000
+      internalID: 4153826672543724772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 268
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b8e4358e8886a90800000000000000
+      internalID: -7320450662879294703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 267
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85e435d1f11bcb90800000000000000
+      internalID: -7220657847196654195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 264
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df48eaac2df68d8a0800000000000000
+      internalID: -6280146729233906435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 248
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50822f094c6e409b0800000000000000
+      internalID: -5114709544866273275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 252
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cde8e8cd1029da910800000000000000
+      internalID: 1850295558612094684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 258
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e0e79f50c541bb0800000000000000
+      internalID: -4966243308352434529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 252
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1844deb90faebfa0800000000000000
+      internalID: -5782992415105988582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 255
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be766f1a70363740800000000000000
+      internalID: 5131342126506213042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 240
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4312857297ffe70b0800000000000000
+      internalID: -5728860780152479436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 235
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e67fc374f0caef0800000000000000
+      internalID: -95684693441679820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 205
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49d6c39293bd9600800000000000000
+      internalID: 476734577697020239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 242
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967b96e7d33ae0350800000000000000
+      internalID: 5984900439331157865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 220
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27934458258c43dc0800000000000000
+      internalID: -3660080340396656270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 223
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2bdd2db5f2c8d10800000000000000
+      internalID: 2129128795265676027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 233
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182124c1bbd6dd710800000000000000
+      internalID: 1719651283125801601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 233
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0bb0856abfc83e0800000000000000
+      internalID: -2049987038500114222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 208
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3dc0aad8b2898690800000000000000
+      internalID: -7599399165757436613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 205
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de735ca1896a405b0800000000000000
+      internalID: -5403010480723380243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 221
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f16b9ce18578aaf0800000000000000
+      internalID: -384928567259340296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 190
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45577e6fa6b9fb010800000000000000
+      internalID: 1206854108869784916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 199
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1553a879b11e7890800000000000000
+      internalID: -7458504444588370661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 196
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ac69b1e93567970800000000000000
+      internalID: 8752274864373942861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 192
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f447ce39f1395b730800000000000000
+      internalID: 4014276406705681487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 183
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c27e89b3a8fb8a0800000000000000
+      internalID: -6287154566212932490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 178
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dcd79ff97d7e7f30800000000000000
+      internalID: 4575232234387659985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 164
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403980094ca3d4d90800000000000000
+      internalID: -7111963620643663100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 190
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34bd7759d03ab4220800000000000000
+      internalID: 2471248099280411459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_65
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 184
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4506cd9e47f943450800000000000000
+      internalID: 6067649922463457364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_66
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 190
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b865baf2524230370800000000000000
+      internalID: 8287507481423992459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_67
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 152
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11438a86291eab8b0800000000000000
+      internalID: -5135544406125300719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_68
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 166
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4ed9cf4b11861d0800000000000000
+      internalID: -3357414053174713137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_69
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 162
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65c897f9e049b070800000000000000
+      internalID: 8122594776564942188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_70
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 114
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599a74cd7ef932820800000000000000
+      internalID: 2892331203883936149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_71
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 166
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041a831364bd4b190800000000000000
+      internalID: -7947486347882094272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_72
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 167
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c15701d286f3f320800000000000000
+      internalID: 2590685252381266376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_73
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 172
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def42498aced931f0800000000000000
+      internalID: -1064574875428827155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_74
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 177
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e392d9a240b2c30800000000000000
+      internalID: 4335563647346097678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_75
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 143
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6374ee062bac1450800000000000000
+      internalID: 6060907378480804714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_76
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 131
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c48f506e0879aa00800000000000000
+      internalID: 768277214585128131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_77
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 137
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35381a72daaaed830800000000000000
+      internalID: 4097900371624690515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_78
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 147
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ec2cd96b1256cc0800000000000000
+      internalID: -3718528849109922232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_79
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 125
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d632f4a3792c77450800000000000000
+      internalID: 6086547376188629869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_80
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 124
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1e208b6371f3740800000000000000
+      internalID: 5133847624008524286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_81
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 137
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e962a9d4488cdbd30800000000000000
+      internalID: 4448932477475104414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_82
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 129
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e97b6fc9329bd4e90800000000000000
+      internalID: -7039767079901808738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_83
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 113
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab18a5bd49d89f10800000000000000
+      internalID: 2276808539419188130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_84
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 127
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3e3c49c125c0880800000000000000
+      internalID: -8643443302122396741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_85
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 138
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867654d7afb132890800000000000000
+      internalID: -7484107393102157976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_86
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 119
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25b1cced2233be00800000000000000
+      internalID: 1059245510189233452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_87
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 113
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c089ac03819bb8050800000000000000
+      internalID: 5803936058345953292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_88
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 125
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2cf0cf6b83089d0800000000000000
+      internalID: -2774155011896130888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_89
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 109
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a72c87003ef5e100800000000000000
+      internalID: 136794845943179177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_90
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 108
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c89494f0e07c3550800000000000000
+      internalID: 6141908103304878273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_91
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 114
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4490a10d9164b40800000000000000
+      internalID: 5424051182795048121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_92
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 114
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e75c22d9c90e140800000000000000
+      internalID: 4746966205955669597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_93
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 104
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b303154b53074160800000000000000
+      internalID: 7009575035561247667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_94
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 98
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843a4c11b211a8ef0800000000000000
+      internalID: -105252764610419896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_95
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 99
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f2a30f58ba217e0800000000000000
+      internalID: -1796184709618061424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_96
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 103
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ad68b231dd321c0800000000000000
+      internalID: -4529533725800211876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_97
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 101
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8adb06b4efab7d2f0800000000000000
+      internalID: -948083595189109336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_98
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 88
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a1dc8372ce21fb0800000000000000
+      internalID: -4678417409683678699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_99
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 84
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142c0d785989a0410800000000000000
+      internalID: 1444134398521819713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_100
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 78
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d4fe1b807886590800000000000000
+      internalID: -7680740693065642729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_101
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 74
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103287ea15bbeb590800000000000000
+      internalID: -7656476356989410559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_102
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 76
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65455a0c01a1480b0800000000000000
+      internalID: -5727424166854568874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_103
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 77
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff874baa1ac644e50800000000000000
+      internalID: 6792673579591039231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_104
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 53
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc49d00ce5a0a6320800000000000000
+      internalID: 2551863540924126413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_105
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 56
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02bfafc8f44ed7cc0800000000000000
+      internalID: -3711559487564612832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_106
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 45
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a392530ea28ab60800000000000000
+      internalID: 7757497500598614623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_107
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 46
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0de177676bf1a60800000000000000
+      internalID: 7647031312219295984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_108
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 39
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6590ffd158fc6af0800000000000000
+      internalID: -401673236209691284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool-Glow-Light-Effect-PNG-Clipart-removebg-preview_109
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 0
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071e603e7909ae9e0800000000000000
+      internalID: -1591300536298708624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
