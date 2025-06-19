@@ -72,6 +72,9 @@ public class GameController : MonoBehaviour
         // pawz the game
         gamePawzed = true;
 
+        // show the background
+        backgroundPanel.SetActive(true);
+
         // load the pawz screen
         pawzScreen.SetActive(true);
 
@@ -87,6 +90,9 @@ public class GameController : MonoBehaviour
 
         // close the pawz screen
         pawzScreen.SetActive(false);
+
+        // show the background
+        backgroundPanel.SetActive(false);
 
         // and un-freeze game play
         Time.timeScale = 1f;
