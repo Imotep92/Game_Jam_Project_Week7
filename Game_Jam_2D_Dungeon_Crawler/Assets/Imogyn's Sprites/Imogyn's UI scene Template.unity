@@ -2885,7 +2885,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRigidbody: {fileID: 203164946}
+  playerAnimator: {fileID: 0}
   playerMoveSpeed: 4
+  playerBullet: {fileID: 0}
+  firePosition: {fileID: 0}
 --- !u!61 &203164945
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -32694,7 +32697,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1434717306
 RectTransform:
   m_ObjectHideFlags: 0
@@ -45064,7 +45067,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2022581476
 RectTransform:
   m_ObjectHideFlags: 0
