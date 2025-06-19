@@ -1,5 +1,7 @@
 
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using TMPro;
 
 
 public class GameController : MonoBehaviour
@@ -22,6 +24,20 @@ public class GameController : MonoBehaviour
     // reference to the player ui panel
     public GameObject playerUiPanel;
 
+    // reference to displayed 'Score Text' in the player ui panel
+    public TextMeshProUGUI scoreText;
+
+    // reference to displayed 'Lives Text' in the player ui panel
+    public TextMeshProUGUI LivesText;
+
+    // reference to 'Score integers' assigned to each enemy
+    public int score;
+
+    // reference to 'Lives integer' in the player ui panel
+    public int lives;
+
+    
+
 
 
     // get a reference to the audio source component
@@ -32,6 +48,12 @@ public class GameController : MonoBehaviour
 
     // is the game in play
     public bool inPlay;
+
+    // is the game over
+    public bool isGameOver;
+
+    // is the game restarting
+    
 
 
 
@@ -72,6 +94,9 @@ public class GameController : MonoBehaviour
         // pawz the game
         gamePawzed = true;
 
+        // activate the background
+        backgroundPanel.SetActive(true);
+
         // load the pawz screen
         pawzScreen.SetActive(true);
 
@@ -85,11 +110,24 @@ public class GameController : MonoBehaviour
         // un-pawz the game
         gamePawzed = false;
 
+        // deactivate the background
+        backgroundPanel.SetActive(false);
+
         // close the pawz screen
         pawzScreen.SetActive(false);
 
         // and un-freeze game play
         Time.timeScale = 1f;
+    }
+
+    public void RestartGame()
+    {
+        // activate the game over screen
+        gameOverScreen.SetActive(false);
+
+        // restart current scene
+        SceneManager.LoadScene(0);
+
     }
 
 
@@ -107,7 +145,7 @@ public class GameController : MonoBehaviour
     public void PlayButton()
     {
         // stop the main menu music
-        audioPlayer.Stop();
+        //audioPlayer.Stop();
 
         // hide the background panel
         backgroundPanel.SetActive(false);
@@ -167,6 +205,21 @@ public class GameController : MonoBehaviour
             // and open the main menu screen
             titleScreen.SetActive(true);
         }
+    }
+
+    public void GameOver()
+    {
+        // Game over
+        isGameOver = true;
+
+        // activate the background
+        backgroundPanel.SetActive(true);
+
+        // activate the game over screen
+        gameOverScreen.SetActive(true);
+
+        // and freeze game play
+        Time.timeScale = 0f;
     }
 
 
