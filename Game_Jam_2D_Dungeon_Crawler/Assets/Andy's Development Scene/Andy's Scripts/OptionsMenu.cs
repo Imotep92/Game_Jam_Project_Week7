@@ -18,11 +18,11 @@ public class OptionsMenu : MonoBehaviour
     public Slider sfxVolumeSlider;
 
     // reference to the volume value labels
-    public TMP_Text masterVolumeValue;
+    public TMP_Text masterVolumeLevel;
 
-    public TMP_Text musicVolumeValue;
+    public TMP_Text musicVolumeLevel;
 
-    public TMP_Text sfxVolumeValue;
+    public TMP_Text sfxVolumeLevel;
 
     // volume slider level offset
     public float volumeSliderLevelOffset = 80f;
@@ -69,11 +69,11 @@ public class OptionsMenu : MonoBehaviour
         }
 
         // update the volume level labels
-        masterVolumeValue.text = (masterVolumeSlider.value + volumeSliderLevelOffset).ToString() + "%";
+        masterVolumeLevel.text = (masterVolumeSlider.value + volumeSliderLevelOffset).ToString() + "%";
 
-        musicVolumeValue.text = (musicVolumeSlider.value + volumeSliderLevelOffset).ToString() + "%";
+        musicVolumeLevel.text = (musicVolumeSlider.value + volumeSliderLevelOffset).ToString() + "%";
 
-        sfxVolumeValue.text = (sfxVolumeSlider.value + volumeSliderLevelOffset).ToString() + "%";
+        sfxVolumeLevel.text = (sfxVolumeSlider.value + volumeSliderLevelOffset).ToString() + "%";
     }
 
 
@@ -82,7 +82,7 @@ public class OptionsMenu : MonoBehaviour
     public void SetMasterVolume()
     {
         // update the master volume level label
-        masterVolumeValue.text = (masterVolumeSlider.value + volumeSliderLevelOffset).ToString() + "%";
+        masterVolumeLevel.text = (masterVolumeSlider.value + volumeSliderLevelOffset).ToString() + "%";
 
         // set the master volume level slider
         audioMixer.SetFloat("Master Volume", masterVolumeSlider.value);
@@ -96,7 +96,7 @@ public class OptionsMenu : MonoBehaviour
     public void SetMusicVolume()
     {
         // update the music volume level label
-        musicVolumeValue.text = (musicVolumeSlider.value + volumeSliderLevelOffset).ToString() + "%";
+        musicVolumeLevel.text = (musicVolumeSlider.value + volumeSliderLevelOffset).ToString() + "%";
 
         // set the music volume level slider
         audioMixer.SetFloat("Music Volume", musicVolumeSlider.value);
@@ -110,7 +110,7 @@ public class OptionsMenu : MonoBehaviour
     public void SetSFXVolume()
     {
         // update the sfx volume level label
-        sfxVolumeValue.text = (sfxVolumeSlider.value + volumeSliderLevelOffset).ToString() + "%";
+        sfxVolumeLevel.text = (sfxVolumeSlider.value + volumeSliderLevelOffset).ToString() + "%";
 
         // set the sfx volume level slider
         audioMixer.SetFloat("SFX Volume", sfxVolumeSlider.value);
