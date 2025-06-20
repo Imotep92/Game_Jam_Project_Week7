@@ -9,6 +9,9 @@ public class GameController : MonoBehaviour
     // make game controller script accessible from other scripts
     public static GameController gameControllerScript;
 
+    // array for doors
+    public GameObject[] doors;
+
     // reference to background panel
     public GameObject backgroundPanel;
 
@@ -90,17 +93,13 @@ public class GameController : MonoBehaviour
                     PawzGame();
                 }
             }
-
-
-
-            if (Input.GetKeyDown(KeyCode.M))
-            {
-                GameOver();
-            }
-
-
-
         }
+    }
+
+
+    public void OpenDoor(int door)
+    {
+        doors[door].SetActive(false);
     }
 
 

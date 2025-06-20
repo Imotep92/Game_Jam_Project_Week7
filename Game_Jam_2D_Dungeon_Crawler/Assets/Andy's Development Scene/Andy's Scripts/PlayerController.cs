@@ -129,6 +129,13 @@ public class PlayerController : MonoBehaviour
             // and destroy the remote
             Destroy(collidingObject.gameObject);
         }
+
+
+        // if player collides with a key
+        if (collidingObject.CompareTag("Key"))
+        {
+            Debug.Log("COLLECTED KEY");
+        }
     }
 
 

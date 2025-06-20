@@ -1,11 +1,36 @@
-﻿using UnityEngine;
+﻿
+using UnityEngine;
+
 
 public class Key : MonoBehaviour
 {
+    // index of key
+    public int keyIndex;
+
+
+
+
+
+
     // 2D trigger callback. For 3D, rename this to OnTriggerEnter(Collider other)
-    private void OnTriggerEnter2D(Collider2D other)
+    /*private void OnTriggerEnter2D(Collider2D collidingObject)
     {
-        if (!other.CompareTag("Player"))
+
+        if (col)
+        {
+
+        }
+
+
+
+
+
+
+
+
+
+
+        /*if (!other.CompareTag("Player"))
             return;
 
         // e.g. "Key2" → "Door2"
@@ -23,5 +48,7 @@ public class Key : MonoBehaviour
         }
 
         Destroy(gameObject);  // remove the key
-    }
-}
+    }*/
+
+
+} // end of class
