@@ -39,10 +39,10 @@ public class PlayerHealthController : MonoBehaviour
     }
 
 
-    public void DamagePlayer()
+    public void DamagePlayer(int enemyDamage)
     {
         // subtract health from player
-        currentHealth--;
+        currentHealth -= enemyDamage;
 
         // if the player's health is less than or equal to zero
         if (currentHealth <= 0)

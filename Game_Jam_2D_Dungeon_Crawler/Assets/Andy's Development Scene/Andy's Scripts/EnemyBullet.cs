@@ -7,6 +7,9 @@ public class EnemyBullet : MonoBehaviour
     // speed of enemy bullet
     public float bulletSpeed;
 
+    // bullet damage
+    public int enemyBulletDamage;
+
     // direction to player
     private Vector3 directionToPlayer;
 
@@ -37,7 +40,7 @@ public class EnemyBullet : MonoBehaviour
         if (collidingObject.CompareTag("Player"))
         {
             // damage player
-            Debug.Log("PLAYER DAMAGED");
+            PlayerHealthController.playerHealthControllerScript.DamagePlayer(enemyBulletDamage);
         }
 
         // destroy enemy bullet
