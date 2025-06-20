@@ -12,6 +12,9 @@ public class GameController : MonoBehaviour
     // array for doors
     public GameObject[] doors;
 
+    // array for keys
+    public int[] keys;
+
     // reference to background panel
     public GameObject backgroundPanel;
 
