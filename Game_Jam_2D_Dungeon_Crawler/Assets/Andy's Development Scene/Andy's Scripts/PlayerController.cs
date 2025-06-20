@@ -117,4 +117,19 @@ public class PlayerController : MonoBehaviour
     }
 
 
+
+    private void OnTriggerEnter2D(Collider2D collidingObject)
+    {
+        // if player collides with the remote
+        if (collidingObject.CompareTag("Remote Control"))
+        {
+            // set player has remote flag
+            playerHasRemote = true;
+
+            // and destroy the remote
+            Destroy(collidingObject.gameObject);
+        }
+    }
+
+
 } // end of class
