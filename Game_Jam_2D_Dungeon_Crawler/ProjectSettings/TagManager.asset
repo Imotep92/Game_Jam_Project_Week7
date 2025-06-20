@@ -4,8 +4,11 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - beam
-  - remote
+  - Remote Control
+  - Player Bullet
+  - Wall
+  - Enemy
+  - Enemy Bullet
   layers:
   - Default
   - TransparentFX
@@ -20,10 +23,10 @@ TagManager:
   - Game Camera
   - Game UI Camera
   - Player UI Camera
-  - 
-  - 
-  - 
-  - 
+  - Player Layer
+  - Player Bullets Layer
+  - Enemy Layer
+  - Enemy Bullets Layer
   - 
   - 
   - 
@@ -42,6 +45,21 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 469853185
+    locked: 0
+  - name: Pickups
+    uniqueID: 2538573833
+    locked: 0
+  - name: Enemy
+    uniqueID: 2756919005
+    locked: 0
+  - name: Player Bullet
+    uniqueID: 3690414037
+    locked: 0
+  - name: Player
+    uniqueID: 3208695969
     locked: 0
   m_RenderingLayers:
   - Default

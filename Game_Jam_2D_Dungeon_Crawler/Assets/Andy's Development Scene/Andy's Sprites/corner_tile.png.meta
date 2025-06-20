@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: feb2630d22db74948aa670ef6e1c79bf
+guid: 5965934f441526743ab2c699a8bec09b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2641894523120030478
-    second: title screen_0
+      213: 5822709488188782431
+    second: corner_tile_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,43 +109,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: title screen_0
+      name: corner_tile_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 480
-        height: 320
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e039e984215e9a420800000000000000
-      internalID: 2641894523120030478
+      spriteID: f57f9c1fd6b6ec050800000000000000
+      internalID: 5822709488188782431
       vertices: []
       indices: 
       edges: []
@@ -174,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      title screen_0: 2641894523120030478
+      corner_tile_0: 5822709488188782431
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

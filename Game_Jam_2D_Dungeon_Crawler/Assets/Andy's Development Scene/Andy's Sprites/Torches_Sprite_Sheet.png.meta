@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: feb2630d22db74948aa670ef6e1c79bf
+guid: 7b9bf11cae2af2545ae88a556afe0143
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2641894523120030478
-    second: title screen_0
+      213: 3408474679907903247
+    second: Torches_Sprite_Sheet_0
+  - first:
+      213: 7361261590510037501
+    second: Torches_Sprite_Sheet_1
+  - first:
+      213: -8630940277066547488
+    second: Torches_Sprite_Sheet_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -109,43 +115,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: title screen_0
+      name: Torches_Sprite_Sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 480
-        height: 320
+        x: 10
+        y: 98
+        width: 12
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e039e984215e9a420800000000000000
-      internalID: 2641894523120030478
+      spriteID: f07e2d999a55d4f20800000000000000
+      internalID: 3408474679907903247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torches_Sprite_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 98
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9e3193a64782660800000000000000
+      internalID: 7361261590510037501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Torches_Sprite_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 66
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee36d3fb8db83880800000000000000
+      internalID: -8630940277066547488
       vertices: []
       indices: 
       edges: []
@@ -164,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -174,7 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      title screen_0: 2641894523120030478
+      Torches_Sprite_Sheet_0: 3408474679907903247
+      Torches_Sprite_Sheet_1: 7361261590510037501
+      Torches_Sprite_Sheet_2: -8630940277066547488
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
