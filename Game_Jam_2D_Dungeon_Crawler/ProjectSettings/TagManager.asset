@@ -7,6 +7,8 @@ TagManager:
   - Remote Control
   - Player Bullet
   - Wall
+  - Enemy
+  - Enemy Bullet
   layers:
   - Default
   - TransparentFX
@@ -21,10 +23,10 @@ TagManager:
   - Game Camera
   - Game UI Camera
   - Player UI Camera
-  - Physics Camera
-  - 
-  - 
-  - 
+  - Player Layer
+  - Player Bullets Layer
+  - Enemy Layer
+  - Enemy Bullets Layer
   - 
   - 
   - 

@@ -10,6 +10,9 @@ public class PlayerBullet : MonoBehaviour
     // speed of player bullet
     public float playerBulletSpeed = 7.5f;
 
+    // player bullet damage
+    public int playerBulletDamage = 50;
+
 
 
 
@@ -40,6 +43,14 @@ public class PlayerBullet : MonoBehaviour
     {
         // destroy the bullet
         Destroy(gameObject);
+
+        // if the player bullet collides with an enemy
+        if (collidingObject.CompareTag("Enemy"))
+        {
+            // get a reference to the enemy controller script
+            // and call the damage enemy function with the player bullet damage value
+            collidingObject.GetComponent<EnemyController>().DamageEnemy(playerBulletDamage);
+        }
     }
 
 

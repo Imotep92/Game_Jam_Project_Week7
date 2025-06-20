@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
     public Transform firePosition;
 
     // if player has remote control
-    private bool playerHasRemote;
+    public bool playerHasRemote;
 
 
 

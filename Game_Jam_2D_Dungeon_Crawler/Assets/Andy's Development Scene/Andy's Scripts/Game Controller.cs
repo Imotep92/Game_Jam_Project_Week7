@@ -6,6 +6,9 @@ using TMPro;
 
 public class GameController : MonoBehaviour
 {
+    // make game controller script accessible from other scripts
+    public static GameController gameControllerScript;
+
     // reference to background panel
     public GameObject backgroundPanel;
 
@@ -52,21 +55,23 @@ public class GameController : MonoBehaviour
     // is the game over
     public bool isGameOver;
 
-    // is the game restarting
-    
 
 
 
+    private void Awake()
+    {
+        gameControllerScript = this;
+    }
 
 
     private void Start()
     {
         // set reference to the audio source component
-        ///audioPlayer = GetComponent<AudioSource>();
+        audioPlayer = GetComponent<AudioSource>();
 
 
         // load the main menu
-        ///LoadMainMenu();
+        LoadMainMenu();
     }
 
 
@@ -85,6 +90,16 @@ public class GameController : MonoBehaviour
                     PawzGame();
                 }
             }
+
+
+
+            if (Input.GetKeyDown(KeyCode.M))
+            {
+                GameOver();
+            }
+
+
+
         }
     }
 
@@ -120,6 +135,7 @@ public class GameController : MonoBehaviour
         Time.timeScale = 1f;
     }
 
+    
     public void RestartGame()
     {
         // activate the game over screen
@@ -133,6 +149,9 @@ public class GameController : MonoBehaviour
 
     private void LoadMainMenu()
     {
+        // start playing menu music
+        ///audioPlayer.Play();
+
         // activate the background
         backgroundPanel.SetActive(true);
 
@@ -145,13 +164,16 @@ public class GameController : MonoBehaviour
     public void PlayButton()
     {
         // stop the main menu music
-        //audioPlayer.Stop();
+        audioPlayer.Stop();
 
         // hide the background panel
         backgroundPanel.SetActive(false);
 
         // close the main menu
         titleScreen.SetActive(false);
+
+        // close the game over screen
+        gameOverScreen.SetActive(false);
 
         // display the player ui panel
         playerUiPanel.SetActive(true);
@@ -178,6 +200,9 @@ public class GameController : MonoBehaviour
             titleScreen.SetActive(false);
         }
 
+        // if the game is over, close the game over screen
+        gameOverScreen.SetActive(false);
+
         // open the options screen
         optionsScreen.SetActive(true);
     }
@@ -196,6 +221,16 @@ public class GameController : MonoBehaviour
             pawzScreen.SetActive(true);
         }
 
+        // if the game is over
+        else if (isGameOver)
+        {
+            // close the options screen
+            optionsScreen.SetActive(false);
+
+            // and open the game over screen
+            gameOverScreen.SetActive(true);
+        }
+
         // otherwise
         else
         {
@@ -211,6 +246,9 @@ public class GameController : MonoBehaviour
     {
         // Game over
         isGameOver = true;
+
+        // start playing menu music
+        audioPlayer.Play();
 
         // activate the background
         backgroundPanel.SetActive(true);
