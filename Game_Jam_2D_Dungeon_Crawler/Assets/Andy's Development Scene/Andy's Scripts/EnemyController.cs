@@ -26,13 +26,16 @@ public class EnemyController : MonoBehaviour
     private Vector3 enemyMovementDirection;
 
     // enemy health
-    public int enemyHealth = 150;
+    public int enemyHealth = 0; // 150;
 
     // should enemy shoot at player
     public bool enemyShouldShoot;
 
     // what the enemy will fire
     public GameObject enemyBullet;
+
+    // item for enemy to drop
+    public GameObject keyPrefab;
 
     // where the bullet will fire from
     public Transform firePosition;
@@ -41,6 +44,9 @@ public class EnemyController : MonoBehaviour
     public float fireRate;
 
     private float fireCounter;
+
+    // if enemy can drop key
+    public bool canDropPickup;
 
 
 
@@ -97,6 +103,14 @@ public class EnemyController : MonoBehaviour
         // if the enemy has no health left
         if (enemyHealth <= 0)
         {
+            // if enemy can drop key
+            if (canDropPickup)
+            {
+                // drop the key
+                Instantiate(keyPrefab, transform.position, transform.rotation);
+            }
+
+
             // destroy the enemy
             Destroy(gameObject);
         }
