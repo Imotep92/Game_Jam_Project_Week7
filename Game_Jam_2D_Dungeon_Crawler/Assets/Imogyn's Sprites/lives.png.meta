@@ -1,34 +1,22 @@
 fileFormatVersion: 2
-guid: f1c191dc375874aa99f2fb69c493ccc9
+guid: ac8971dd703ad46cabd84f4d6655f8ee
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3914158755027951648
-    second: Static Attack title_0
+      213: 9200775849295203296
+    second: lives_0
   - first:
-      213: 8086250340085904580
-    second: Static Attack title_1
+      213: -4997167023504409373
+    second: lives_1
   - first:
-      213: 1347775015945702576
-    second: Static Attack title_2
+      213: -3837318412928117542
+    second: lives_2
   - first:
-      213: -7991210558691702217
-    second: Static Attack title_3
+      213: -6714008040260607975
+    second: lives_3
   - first:
-      213: 4057183822899991686
-    second: Static Attack title_4
-  - first:
-      213: -6068879442540370077
-    second: Static Attack title_5
-  - first:
-      213: -8022201784375110193
-    second: Static Attack title_6
-  - first:
-      213: -8792683352097795761
-    second: Static Attack title_7
-  - first:
-      213: -903080602606284905
-    second: Static Attack title_8
+      213: 9000263463822818361
+    second: lives_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -137,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Static Attack title_0
+      name: lives_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 36
-        width: 12
-        height: 13
+        x: 11
+        y: 22
+        width: 16
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0efd214b95d1ea9c0800000000000000
-      internalID: -3914158755027951648
+      spriteID: 0ebcb3b13e8bfaf70800000000000000
+      internalID: 9200775849295203296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Static Attack title_1
+      name: lives_1
       rect:
         serializedVersion: 2
-        x: 14
-        y: 36
+        x: 28
+        y: 22
         width: 10
-        height: 12
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,42 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c4b3bd67d1283070800000000000000
-      internalID: 8086250340085904580
+      spriteID: 3ec39b8711f76aab0800000000000000
+      internalID: -4997167023504409373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Static Attack title_2
+      name: lives_2
       rect:
         serializedVersion: 2
-        x: 23
-        y: 36
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0bc07967c3244b210800000000000000
-      internalID: 1347775015945702576
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Static Attack title_3
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 17
+        x: 38
+        y: 22
         width: 17
-        height: 20
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 73a84db0654891190800000000000000
-      internalID: -7991210558691702217
+      spriteID: ad49a530c3b1fbac0800000000000000
+      internalID: -3837318412928117542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Static Attack title_4
+      name: lives_3
       rect:
         serializedVersion: 2
-        x: 34
-        y: 36
-        width: 12
-        height: 12
+        x: 56
+        y: 22
+        width: 14
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6845a68e0330e4830800000000000000
-      internalID: 4057183822899991686
+      spriteID: 910662d724d03d2a0800000000000000
+      internalID: -6714008040260607975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Static Attack title_5
+      name: lives_4
       rect:
         serializedVersion: 2
-        x: 45
-        y: 36
-        width: 11
-        height: 12
+        x: 70
+        y: 22
+        width: 16
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,74 +228,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 367e5b22d4207cba0800000000000000
-      internalID: -6068879442540370077
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Static Attack title_6
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 17
-        width: 12
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fc511d50bf96ba090800000000000000
-      internalID: -8022201784375110193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Static Attack title_7
-      rect:
-        serializedVersion: 2
-        x: 53
-        y: 17
-        width: 19
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f4158bfa31d1af580800000000000000
-      internalID: -8792683352097795761
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Static Attack title_8
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 17
-        width: 25
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 79f4b160afc9773f0800000000000000
-      internalID: -903080602606284905
+      spriteID: 93cf5165feb57ec70800000000000000
+      internalID: 9000263463822818361
       vertices: []
       indices: 
       edges: []
@@ -348,15 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Static Attack title_0: -3914158755027951648
-      Static Attack title_1: 8086250340085904580
-      Static Attack title_2: 1347775015945702576
-      Static Attack title_3: -7991210558691702217
-      Static Attack title_4: 4057183822899991686
-      Static Attack title_5: -6068879442540370077
-      Static Attack title_6: -8022201784375110193
-      Static Attack title_7: -8792683352097795761
-      Static Attack title_8: -903080602606284905
+      lives_0: 9200775849295203296
+      lives_1: -4997167023504409373
+      lives_2: -3837318412928117542
+      lives_3: -6714008040260607975
+      lives_4: 9000263463822818361
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
