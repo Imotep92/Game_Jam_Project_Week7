@@ -24,13 +24,6 @@ public class CameraController : MonoBehaviour
     }
 
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-
     // Update is called once per frame
     void Update()
     {
@@ -54,6 +47,64 @@ public class CameraController : MonoBehaviour
     {
         // get the transform position of the new room entered by the player
         targetRoom = newRoomTarget;
+
+        // close the door from the previous room 
+        CloseDoor(GameController.gameControllerScript.room - 1);
+
+        //SpawnEnemy();
+
+        // increment room number
+        GameController.gameControllerScript.room++;
+    }
+
+
+    public void SpawnEnemy()
+    {
+        // if we are playing the game
+        if (!GameController.gameControllerScript.gameOver)
+        {
+            // get room number entered
+            int roomEntered = GameController.gameControllerScript.room;
+
+            // number of enemies to spawn
+            int enemiesToSpawn;
+
+            // if we are in the starting room (room 0)
+            // or we have entered the boss room (room 6)
+            if (roomEntered - 1 == 0 || roomEntered == GameController.BOSS_ROOM)
+            {
+                // we should only spawn one enemy
+                enemiesToSpawn = 1;
+            }
+
+            // otherwise
+            else
+            {
+                // set enemies to spawn based on room number
+                enemiesToSpawn = roomEntered;
+            }
+
+            // spawn enemy
+            SpawnController.spawnControllerScript.SpawnRandomEnemyWave(enemiesToSpawn);
+        }
+    }
+
+
+    private void CloseDoor(int doorToClose)
+    {
+        // if the door to close does not exist
+        if (doorToClose < 0)
+        {
+            // simply return
+            return;
+        }
+
+        // otherwise
+        else
+        {
+            // close the door to the previous room
+            GameController.gameControllerScript.CloseDoor(doorToClose);
+        }
     }
 
 

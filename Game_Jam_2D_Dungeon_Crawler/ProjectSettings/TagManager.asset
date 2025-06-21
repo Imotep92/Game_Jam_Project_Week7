@@ -10,6 +10,7 @@ TagManager:
   - Enemy
   - Enemy Bullet
   - Key
+  - Television
   layers:
   - Default
   - TransparentFX
@@ -56,11 +57,14 @@ TagManager:
   - name: Enemy
     uniqueID: 2756919005
     locked: 0
-  - name: Player Bullet
-    uniqueID: 3690414037
+  - name: Enemy Bullets
+    uniqueID: 4155598637
     locked: 0
   - name: Player
     uniqueID: 3208695969
+    locked: 0
+  - name: Player Bullet
+    uniqueID: 3690414037
     locked: 0
   m_RenderingLayers:
   - Default

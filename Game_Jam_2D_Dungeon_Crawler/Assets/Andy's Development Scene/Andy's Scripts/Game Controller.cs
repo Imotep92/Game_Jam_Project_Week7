@@ -2,6 +2,9 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using System.Threading;
+using System.Collections;
+using Unity.VisualScripting;
 
 
 public class GameController : MonoBehaviour
@@ -12,8 +15,11 @@ public class GameController : MonoBehaviour
     // array for doors
     public GameObject[] doors;
 
-    // array for keys
-    public int[] keys;
+    // array for lives
+    public GameObject[] playerLives;
+
+    // array for health
+    public GameObject[] playerPizzaHealth;
 
     // reference to background panel
     public GameObject backgroundPanel;
@@ -34,10 +40,13 @@ public class GameController : MonoBehaviour
     public GameObject playerUiPanel;
 
     // reference to displayed 'Score Text' in the player ui panel
-    public TextMeshProUGUI scoreText;
+    public TMP_Text scoreText;
+
+    // game time text
+    public TMP_Text gameTimeText;
 
     // reference to displayed 'Lives Text' in the player ui panel
-    public TextMeshProUGUI LivesText;
+    ///public TextMeshProUGUI LivesText;
 
     // reference to 'Score integers' assigned to each enemy
     public int score;
@@ -45,7 +54,24 @@ public class GameController : MonoBehaviour
     // reference to 'Lives integer' in the player ui panel
     public int lives;
 
-    
+    // player health
+    public int playerHealth;
+
+    // game time left
+    // 6 minutes or 360 seconds
+    [HideInInspector] public float gameTime;
+
+
+
+    // current room the player is in
+    public int room;
+
+    public const int BOSS_ROOM = 6;
+
+    // boss sprite
+    public const int BOSS_SPRITE = 3;
+
+
 
 
 
@@ -59,7 +85,17 @@ public class GameController : MonoBehaviour
     public bool inPlay;
 
     // is the game over
-    public bool isGameOver;
+    public bool gameOver;
+
+    // if we are starting the level
+    public bool levelStart;
+
+    // if we are entering a room
+    public bool hasEnterdRoom;
+
+    public float coolDownTimer = 3f;
+
+    public float enteredRoomTimer;
 
 
 
@@ -76,14 +112,44 @@ public class GameController : MonoBehaviour
         audioPlayer = GetComponent<AudioSource>();
 
 
-        // load the main menu
-        LoadMainMenu();
+        InitialiseLevelStart();
+
+        // load the title screen
+        TitleScreen();
+    }
+
+
+    private void InitialiseLevelStart()
+    {
+        // set starting room
+        room = 0;
+
+      
+        gameOver = true;
+
+        inPlay = false;
+
+        // we are starting the level
+        levelStart = true;
     }
 
 
 
     private void Update()
     {
+        // if player has entered a room
+        if (!gameOver && hasEnterdRoom)
+        {
+            PlayerEnteredRoom();
+        }
+
+
+        if (!gameOver && !gamePawzed)
+        {
+            DisplayGameTime();
+        }
+
+
         // if the game is in play
         if (inPlay)
         {
@@ -100,9 +166,37 @@ public class GameController : MonoBehaviour
     }
 
 
-    public void OpenDoor(int door)
+    private void PlayerEnteredRoom()
     {
-        doors[door].SetActive(false);
+        enteredRoomTimer -= Time.deltaTime;
+
+        if (enteredRoomTimer <= 0)
+        {
+            enteredRoomTimer = 0;
+
+            hasEnterdRoom = false;
+
+            CameraController.cameraControllerScript.SpawnEnemy();
+        }
+    }
+
+
+    public void OpenDoor(int doorToOpen)
+    {
+        // open door to next room
+        doors[doorToOpen].SetActive(false);
+    }
+
+
+    public void CloseDoor(int doorToClose)
+    {
+        // close the door from the previous room
+        doors[doorToClose].SetActive(true);
+
+        // player has entered room
+        enteredRoomTimer = coolDownTimer;
+
+        hasEnterdRoom = true;
     }
 
 
@@ -140,16 +234,18 @@ public class GameController : MonoBehaviour
     
     public void RestartGame()
     {
-        // activate the game over screen
+        // close the game over screen
         gameOverScreen.SetActive(false);
 
-        // restart current scene
-        SceneManager.LoadScene(0);
+        // and un-freeze game play
+        Time.timeScale = 1f;
 
+        // restart the game
+        SceneManager.LoadScene(0);
     }
 
 
-    private void LoadMainMenu()
+    private void TitleScreen()
     {
         // start playing menu music
         ///audioPlayer.Play();
@@ -180,8 +276,35 @@ public class GameController : MonoBehaviour
         // display the player ui panel
         playerUiPanel.SetActive(true);
 
+        Initialise();
+    }
+
+
+    private void Initialise()
+    {
+        // player core
+        score = 0;
+
+        // player lives
+        lives = 3;
+
+        // player health
+        playerHealth = 100;
+
+        // game time left
+        // 6 minutes or 360 seconds
+        gameTime = 360f;
+
         // set the game in play flag
         inPlay = true;
+
+        gameOver = false;
+
+        levelStart = false;
+
+        enteredRoomTimer = coolDownTimer;
+
+        hasEnterdRoom = true;
     }
 
 
@@ -198,7 +321,7 @@ public class GameController : MonoBehaviour
         // otherwise
         else
         {
-            // close the main menu
+            // close the title screen
             titleScreen.SetActive(false);
         }
 
@@ -213,7 +336,18 @@ public class GameController : MonoBehaviour
     // if we are closing the options screen 
     public void CloseOptions()
     {
-        // and the game is pawzed
+        // if we are starting the level
+        if (levelStart)
+        {
+            // close the options screen
+            optionsScreen.SetActive(false);
+
+            // and open the title screen
+            titleScreen.SetActive(true);
+        }
+
+
+        // if the game is pawzed
         if (gamePawzed)
         {
             // close the options screen
@@ -223,8 +357,9 @@ public class GameController : MonoBehaviour
             pawzScreen.SetActive(true);
         }
 
-        // if the game is over
-        else if (isGameOver)
+
+        // if the game is over and we are not starting the level
+        if (gameOver && !levelStart)
         {
             // close the options screen
             optionsScreen.SetActive(false);
@@ -232,22 +367,13 @@ public class GameController : MonoBehaviour
             // and open the game over screen
             gameOverScreen.SetActive(true);
         }
-
-        // otherwise
-        else
-        {
-            // close the options screen
-            optionsScreen.SetActive(false);
-
-            // and open the main menu screen
-            titleScreen.SetActive(true);
-        }
     }
+
 
     public void GameOver()
     {
-        // Game over
-        isGameOver = true;
+        // game over
+        gameOver = true;
 
         // start playing menu music
         audioPlayer.Play();
@@ -255,11 +381,32 @@ public class GameController : MonoBehaviour
         // activate the background
         backgroundPanel.SetActive(true);
 
-        // activate the game over screen
+        // open the game over screen
         gameOverScreen.SetActive(true);
 
         // and freeze game play
         Time.timeScale = 0f;
+    }
+
+
+    public void DisplayPlayerScore()
+    {
+        scoreText.text = score.ToString("000000");
+    }
+
+
+    public void DisplayGameTime()
+    {
+        gameTime -= Time.deltaTime;
+
+        gameTimeText.text = gameTime.ToString("00:00");
+
+        if (gameTime < 0)
+        {
+            gameTime = 0f;
+
+            GameOver();
+        }
     }
 
 

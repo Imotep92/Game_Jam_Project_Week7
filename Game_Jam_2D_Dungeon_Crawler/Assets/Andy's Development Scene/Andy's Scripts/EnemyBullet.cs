@@ -36,21 +36,14 @@ public class EnemyBullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collidingObject)
     {
+        // destroy enemy bullet
+        Destroy(gameObject);
+
         // if the enemy bullet collides with the player
         if (collidingObject.CompareTag("Player"))
         {
             // damage player
-            PlayerHealthController.playerHealthControllerScript.DamagePlayer(enemyBulletDamage);
-
-            // destroy enemy bullet
-            Destroy(gameObject);
-        }
-
-        // if the enemy bullet collides with the wall
-        if (collidingObject.CompareTag("Wall"))
-        {
-            // destroy enemy bullet
-            Destroy(gameObject);
+            PlayerController.playerControllerScript.DamagePlayer(enemyBulletDamage);
         }
     }
 

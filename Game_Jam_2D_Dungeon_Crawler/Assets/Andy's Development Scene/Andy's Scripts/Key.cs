@@ -4,11 +4,6 @@ using UnityEngine;
 
 public class Key : MonoBehaviour
 {
-    // index of key
-    public int keyIndex;
-
-
-
     private void OnTriggerEnter2D(Collider2D collidingObject)
     {
         // if the player collides with the key
@@ -18,7 +13,7 @@ public class Key : MonoBehaviour
             Destroy(gameObject);
 
             // open the associated key
-            GameController.gameControllerScript.OpenDoor(keyIndex);
+            GameController.gameControllerScript.OpenDoor(GameController.gameControllerScript.room - 1);
         }
     }
 

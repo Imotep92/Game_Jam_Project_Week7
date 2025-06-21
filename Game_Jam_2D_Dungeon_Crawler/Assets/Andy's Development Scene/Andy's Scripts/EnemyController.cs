@@ -26,7 +26,13 @@ public class EnemyController : MonoBehaviour
     private Vector3 enemyMovementDirection;
 
     // enemy health
-    public int enemyHealth = 0; // 150;
+    public int enemyHealth = 0;
+
+    // enemy points
+    public int enemyPoints;
+
+    // player damage
+    public int playerDamage;
 
     // should enemy shoot at player
     public bool enemyShouldShoot;
@@ -52,24 +58,21 @@ public class EnemyController : MonoBehaviour
 
 
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-
     // move enemy toward player
     void Update()
     {
-        // check to see if enemy is visible on-screen
-        if (enemyObject.isVisible)
+        // if we playing the game
+        if (!GameController.gameControllerScript.gameOver)
         {
-            GetPlayerPosition();
+            // check to see if enemy is visible on-screen
+            if (enemyObject.isVisible)
+            {
+                GetPlayerPosition();
 
-            MoveEnemy();
+                MoveEnemy();
 
-            ShootAtPlayer();
+                ShootAtPlayer();
+            }
         }
     }
 
@@ -100,14 +103,25 @@ public class EnemyController : MonoBehaviour
     {
         enemyHealth -= damage;
 
+        GameController.gameControllerScript.score += playerDamage;
+
+        GameController.gameControllerScript.DisplayPlayerScore();
+
         // if the enemy has no health left
         if (enemyHealth <= 0)
         {
+            // subtract one from enemy count
+            SpawnController.spawnControllerScript.enemyCount--;
+
             // if enemy can drop key
             if (canDropPickup)
             {
-                // drop the key
-                Instantiate(keyPrefab, transform.position, transform.rotation);
+                // if all the enemies in the room have been killed
+                if (SpawnController.spawnControllerScript.enemyCount == 0)
+                {
+                    // drop the key
+                    Instantiate(keyPrefab, transform.position, transform.rotation);
+                }
             }
 
 

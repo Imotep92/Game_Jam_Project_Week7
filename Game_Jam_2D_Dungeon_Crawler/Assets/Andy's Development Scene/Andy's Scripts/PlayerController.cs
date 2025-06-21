@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     public Animator playerAnimator;
 
     // player's movement speed
-    public float playerMoveSpeed;
+    public float playerMoveSpeed = 5;
 
     // player's movement controls
     private Vector2 playerMovementInput;
@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
 
 
 
+
     private void Awake()
     {
         // set reference to player controller script
@@ -41,12 +42,6 @@ public class PlayerController : MonoBehaviour
 
 
 
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
 
 
     void Update()
@@ -111,9 +106,63 @@ public class PlayerController : MonoBehaviour
 
     private void MovePlayer()
     {
-        //transform.position += new Vector3(movementInput.x * Time.deltaTime * playerMoveSpeed, movementInput.y * Time.deltaTime * playerMoveSpeed, transform.position.z);
-
         playerRigidbody.linearVelocity = playerMovementInput * playerMoveSpeed;
+    }
+
+
+    public void DamagePlayer(int enemyDamage)
+    {
+        // subtract health from player
+        GameController.gameControllerScript.playerHealth -= enemyDamage;
+
+        // display player's pizza health based on player health
+        if (GameController.gameControllerScript.playerHealth < 100 && GameController.gameControllerScript.playerHealth > 60 )
+        {
+            GameController.gameControllerScript.playerPizzaHealth[0].SetActive(false);
+
+            GameController.gameControllerScript.playerPizzaHealth[1].SetActive(true);
+        }
+
+        if (GameController.gameControllerScript.playerHealth < 60 && GameController.gameControllerScript.playerHealth > 30)
+        {
+            GameController.gameControllerScript.playerPizzaHealth[1].SetActive(false);
+
+            GameController.gameControllerScript.playerPizzaHealth[2].SetActive(true);
+        }
+        
+        if (GameController.gameControllerScript.playerHealth < 30 && GameController.gameControllerScript.playerHealth > 0)
+        {
+            GameController.gameControllerScript.playerPizzaHealth[2].SetActive(false);
+
+            GameController.gameControllerScript.playerPizzaHealth[3].SetActive(true);
+        }
+
+        // if the player's health is less than or equal to zero
+        if (GameController.gameControllerScript.playerHealth <= 0)
+        {
+            GameController.gameControllerScript.lives--;
+
+            if (GameController.gameControllerScript.lives >= 0)
+            {
+                GameController.gameControllerScript.playerLives[GameController.gameControllerScript.lives].SetActive(false);
+
+                GameController.gameControllerScript.playerHealth = 100;
+
+                GameController.gameControllerScript.playerPizzaHealth[3].SetActive(false);
+
+                GameController.gameControllerScript.playerPizzaHealth[0].SetActive(true);
+            }
+        }
+
+
+        if (GameController.gameControllerScript.lives < 0)
+        { 
+            // deactivate the player
+            gameObject.SetActive(false);
+
+            // show game over screen
+            //GameController.gameControllerScript.GameOver();
+        }
     }
 
 

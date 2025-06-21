@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4600665447999246021}
-  m_Layer: 10
+  m_Layer: 15
   m_Name: Fire Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 1108467466543082268}
   - component: {fileID: 8708198425437640114}
   m_Layer: 15
-  m_Name: Enemy Skeleton
+  m_Name: enemy1_0
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -143,16 +143,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyRigidbody: {fileID: 1108467466543082268}
-  enemyObject: {fileID: 0}
+  enemyObject: {fileID: 5515660779593369815}
   enemyAnimator: {fileID: 0}
-  enemyMovementSpeed: 3
+  enemyMovementSpeed: 2
   rangeToChasePlayer: 7
-  shootRange: 0
-  enemyHealth: 0
-  enemyShouldShoot: 0
-  enemyBullet: {fileID: 0}
-  firePosition: {fileID: 0}
-  fireRate: 0
+  shootRange: 8
+  enemyHealth: 20
+  enemyPoints: 20
+  playerDamage: 10
+  enemyShouldShoot: 1
+  enemyBullet: {fileID: 7599505847366348637, guid: e6ed385152024414995d1a4cff6bc05a, type: 3}
+  keyPrefab: {fileID: 2930615130293561311, guid: 3dc2430485ca20c4fb2cfe20a719b7e7, type: 3}
+  firePosition: {fileID: 4600665447999246021}
+  fireRate: 1
+  canDropPickup: 1
 --- !u!1 &7648284353435096075
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,9 +230,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingLayerID: -1538048291
+  m_SortingLayer: 3
+  m_SortingOrder: 2
   m_Sprite: {fileID: 4801227835787818748, guid: 7bbf9bf6dc435bc408d4cc2ca4caa7c8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
