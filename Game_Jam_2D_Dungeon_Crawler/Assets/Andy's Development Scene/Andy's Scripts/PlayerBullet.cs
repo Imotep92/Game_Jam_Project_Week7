@@ -17,14 +17,6 @@ public class PlayerBullet : MonoBehaviour
 
 
 
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-
     // Update is called once per frame
     void Update()
     {
@@ -51,6 +43,11 @@ public class PlayerBullet : MonoBehaviour
             // get a reference to the enemy controller script
             // and call the damage enemy function with the player bullet damage value
             collidingObject.GetComponent<EnemyController>().DamageEnemy(playerBulletDamage);
+
+            // play enemy hurt sound
+            int enemyHurtSound = 1;
+
+            AudioController.audioControllerScript.PlaySFX(enemyHurtSound);
         }
     }
 

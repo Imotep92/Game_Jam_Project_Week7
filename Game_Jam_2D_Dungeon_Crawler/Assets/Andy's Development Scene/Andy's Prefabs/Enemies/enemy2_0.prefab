@@ -159,6 +159,7 @@ MonoBehaviour:
   enemyShouldShoot: 1
   enemyBullet: {fileID: 7599505847366348637, guid: e6ed385152024414995d1a4cff6bc05a, type: 3}
   keyPrefab: {fileID: 2930615130293561311, guid: 3dc2430485ca20c4fb2cfe20a719b7e7, type: 3}
+  pizzaSlicePrefab: {fileID: 7781555838603592557, guid: bde3678b77932044eb6624b37ad6328e, type: 3}
   firePosition: {fileID: 7251501684839365183}
   fireRate: 0.8
   canDropPickup: 1

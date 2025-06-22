@@ -14,6 +14,12 @@ public class Key : MonoBehaviour
 
             // open the associated key
             GameController.gameControllerScript.OpenDoor(GameController.gameControllerScript.room - 1);
+
+            // play key collected sound
+            int keyCollectedSound = 4;
+
+            AudioController.audioControllerScript.PlaySFX(keyCollectedSound);
+
         }
     }
 

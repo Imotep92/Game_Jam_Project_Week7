@@ -43,6 +43,8 @@ public class EnemyController : MonoBehaviour
     // item for enemy to drop
     public GameObject keyPrefab;
 
+    public GameObject pizzaSlicePrefab;
+
     // where the bullet will fire from
     public Transform firePosition;
 
@@ -101,8 +103,10 @@ public class EnemyController : MonoBehaviour
 
     public void DamageEnemy(int damage)
     {
+        // subtract damage from enemy health
         enemyHealth -= damage;
 
+        // increase and display player score
         GameController.gameControllerScript.score += playerDamage;
 
         GameController.gameControllerScript.DisplayPlayerScore();
@@ -110,23 +114,56 @@ public class EnemyController : MonoBehaviour
         // if the enemy has no health left
         if (enemyHealth <= 0)
         {
-            // subtract one from enemy count
-            SpawnController.spawnControllerScript.enemyCount--;
-
-            // if enemy can drop key
-            if (canDropPickup)
+            // if we are in the boss room
+            if (GameController.gameControllerScript.room == GameController.BOSS_ROOM)
             {
-                // if all the enemies in the room have been killed
-                if (SpawnController.spawnControllerScript.enemyCount == 0)
+                // open the gate
+                GameController.gameControllerScript.escapeToVictory[GameController.THE_EXIT].SetActive(false);
+
+                // show the television
+                GameController.gameControllerScript.escapeToVictory[GameController.THE_TELEVISION].SetActive(true);
+            }
+
+            // otherwise
+            else
+            {
+                // subtract one from enemy count
+                SpawnController.spawnControllerScript.enemyCount--;
+
+                // if enemy can drop key
+                if (canDropPickup)
                 {
-                    // drop the key
-                    Instantiate(keyPrefab, transform.position, transform.rotation);
+                    // if all the enemies in the room have been killed
+                    if (SpawnController.spawnControllerScript.enemyCount == 0)
+                    {
+                        // drop the key
+                        Instantiate(keyPrefab, transform.position, transform.rotation);
+                    }
+
+                    // otherwise
+                    else
+                    {
+                        // choose a random number between 1 and 5
+                        int randomDrop = Random.Range(0, 5);
+
+                        // if it's the player's lucky day
+                        if (randomDrop == 3)
+                        {
+                            // drop a pizza slice
+                            Instantiate(pizzaSlicePrefab, transform.position, transform.rotation);
+                        }
+                    }
                 }
             }
 
 
             // destroy the enemy
             Destroy(gameObject);
+
+            // play enemy death sound
+            int enemyDeathSound = 0;
+
+            AudioController.audioControllerScript.PlaySFX(enemyDeathSound);
         }
     }
 

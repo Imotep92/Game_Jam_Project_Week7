@@ -1,8 +1,5 @@
 
 using UnityEngine;
-using UnityEngine.UI;
-using TMPro;
-
 
 
 public class PlayerController : MonoBehaviour
@@ -39,7 +36,6 @@ public class PlayerController : MonoBehaviour
         // set reference to player controller script
         playerControllerScript = this;
     }
-
 
 
 
@@ -81,6 +77,11 @@ public class PlayerController : MonoBehaviour
             {
                 // fire a bullet
                 Instantiate(playerBullet, firePosition.position, firePosition.rotation);
+
+                // play player firing sound
+                int playerFiringSound = 16;
+
+                AudioController.audioControllerScript.PlaySFX(playerFiringSound);
             }
         }
     }
@@ -115,8 +116,53 @@ public class PlayerController : MonoBehaviour
         // subtract health from player
         GameController.gameControllerScript.playerHealth -= enemyDamage;
 
+        DisplayPizzaHealth();
+
+        // if the player's health is less than or equal to zero
+        if (GameController.gameControllerScript.playerHealth <= 0)
+        {
+            // subtract one from player lives
+            GameController.gameControllerScript.lives--;
+
+            // if player lives is greater than or equal to zero
+            if (GameController.gameControllerScript.lives >= 0)
+            {
+                // hide one of the player lives sprites
+                GameController.gameControllerScript.playerLives[GameController.gameControllerScript.lives].SetActive(false);
+
+                // reset player health to maximum health
+                GameController.gameControllerScript.playerHealth = GameController.MAXIMUM_HEALTH;
+
+                ResetPizza();
+            }
+        }
+
+
+        // otherwise
+        // if player is out of lives
+        if (GameController.gameControllerScript.lives < 0)
+        { 
+            // deactivate the player
+            gameObject.SetActive(false);
+
+            // play player death sound
+            int playerDeathSound = 8;
+
+            AudioController.audioControllerScript.PlaySFX(playerDeathSound);
+
+            // show game over screen
+            GameController.gameControllerScript.GameOver();
+
+            // play game over music
+            AudioController.audioControllerScript.PlayGameOverMusic();
+        }
+    }
+
+
+    private void DisplayPizzaHealth()
+    {
         // display player's pizza health based on player health
-        if (GameController.gameControllerScript.playerHealth < 100 && GameController.gameControllerScript.playerHealth > 60 )
+        if (GameController.gameControllerScript.playerHealth < 100 && GameController.gameControllerScript.playerHealth > 60)
         {
             GameController.gameControllerScript.playerPizzaHealth[0].SetActive(false);
 
@@ -129,40 +175,24 @@ public class PlayerController : MonoBehaviour
 
             GameController.gameControllerScript.playerPizzaHealth[2].SetActive(true);
         }
-        
+
         if (GameController.gameControllerScript.playerHealth < 30 && GameController.gameControllerScript.playerHealth > 0)
         {
             GameController.gameControllerScript.playerPizzaHealth[2].SetActive(false);
 
             GameController.gameControllerScript.playerPizzaHealth[3].SetActive(true);
         }
-
-        // if the player's health is less than or equal to zero
-        if (GameController.gameControllerScript.playerHealth <= 0)
-        {
-            GameController.gameControllerScript.lives--;
-
-            if (GameController.gameControllerScript.lives >= 0)
-            {
-                GameController.gameControllerScript.playerLives[GameController.gameControllerScript.lives].SetActive(false);
-
-                GameController.gameControllerScript.playerHealth = 100;
-
-                GameController.gameControllerScript.playerPizzaHealth[3].SetActive(false);
-
-                GameController.gameControllerScript.playerPizzaHealth[0].SetActive(true);
-            }
-        }
+    }
 
 
-        if (GameController.gameControllerScript.lives < 0)
-        { 
-            // deactivate the player
-            gameObject.SetActive(false);
+    private void ResetPizza()
+    {
+        GameController.gameControllerScript.playerPizzaHealth[0].SetActive(false);
+        GameController.gameControllerScript.playerPizzaHealth[1].SetActive(false);
+        GameController.gameControllerScript.playerPizzaHealth[2].SetActive(false);
+        GameController.gameControllerScript.playerPizzaHealth[3].SetActive(false);
 
-            // show game over screen
-            //GameController.gameControllerScript.GameOver();
-        }
+        GameController.gameControllerScript.playerPizzaHealth[0].SetActive(true);
     }
 
 
@@ -177,6 +207,54 @@ public class PlayerController : MonoBehaviour
 
             // and destroy the remote
             Destroy(collidingObject.gameObject);
+
+            // play remote collected sound
+            int remoteCollectedSound = 5;
+
+            AudioController.audioControllerScript.PlaySFX(remoteCollectedSound);
+        }
+
+
+        // if the player collides with the pizza slice
+        if (collidingObject.CompareTag("Health"))
+        {
+            // increase player's health
+            GameController.gameControllerScript.playerHealth += GameController.HEALTH_BOOST;
+
+            // if player's health goes above maximum health
+            if (GameController.gameControllerScript.playerHealth >= GameController.MAXIMUM_HEALTH)
+            {
+                // set player's health to maximum health
+                GameController.gameControllerScript.playerHealth = GameController.MAXIMUM_HEALTH;
+
+                DisplayPizzaHealth();
+
+                // play health collected sound
+                int healthCollectedSound = 6;
+
+                AudioController.audioControllerScript.PlaySFX(healthCollectedSound);
+            }
+
+            // and destroy the pizza slice
+            Destroy(collidingObject.gameObject);
+        }
+
+        // if the player has escaped
+        if (collidingObject.CompareTag("Escape To Victory"))
+        {
+            // destroy the television
+            Destroy(collidingObject.gameObject);
+
+            // play escape to victory sound
+            int escapeToVictorySound = 17;
+
+            AudioController.audioControllerScript.PlaySFX(escapeToVictorySound);
+
+            // and show escape to victory screen
+            GameController.gameControllerScript.Victory();
+
+            AudioController.audioControllerScript.PlayVictoryMusic();
+
         }
     }
 

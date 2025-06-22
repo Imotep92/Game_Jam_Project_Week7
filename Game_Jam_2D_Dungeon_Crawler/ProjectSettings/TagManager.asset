@@ -11,6 +11,8 @@ TagManager:
   - Enemy Bullet
   - Key
   - Television
+  - Health
+  - Escape To Victory
   layers:
   - Default
   - TransparentFX

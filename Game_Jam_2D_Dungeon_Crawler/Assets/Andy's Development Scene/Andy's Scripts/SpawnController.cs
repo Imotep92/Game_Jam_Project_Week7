@@ -1,8 +1,4 @@
 
-//using System;
-//using System.Collections.Generic;
-using System.Collections;
-using System.Threading;
 using UnityEngine;
 
 
@@ -54,31 +50,31 @@ public class SpawnController : MonoBehaviour
 
         // spawn boundaries
         // room 0
-        if (playerX >= 48f && playerX <= 59f)
+        if (playerX > 48f && playerX < 59f)
         {
             spawnPosX = 49f;
         }
 
         // room 1
-        if (playerX >= 36f && playerX <= 47f)
+        if (playerX > 36f && playerX < 47f)
         {
             spawnPosX = 37f;
         }
 
         // room 2
-        if (playerX >= 24f && playerX <= 35f)
+        if (playerX > 24f && playerX < 35f)
         {
             spawnPosX = 25f;
         }
 
 
         // rooms 3 - 6
-        if ( playerY >= 7f && playerY <= 13f)
+        if (playerY > 6f && playerY < 14f)
         {
             spawnPosY = Random.Range(7f, 13f);
         }
 
-        if (playerY >= -3f && playerY <= 3f)
+        else if (playerY > -3.5f && playerY < 3.5f)
         {
             spawnPosY = -3f;
         }
@@ -104,18 +100,22 @@ public class SpawnController : MonoBehaviour
             // if we are in the boss room
             if (GameController.gameControllerScript.room == GameController.BOSS_ROOM)
             {
-                randomEnemy = GameController.BOSS_SPRITE;
+                //randomEnemy = GameController.BOSS_SPRITE;
+                GameController.gameControllerScript.escapeToVictory[GameController.THE_BOSS].SetActive(true);
+
+                // play boss musid
+                AudioController.audioControllerScript.PlayBossMusic();
             }
 
             // otherwise
             else
             {
-                // select a random enemy - the boss sprite
+                // select a random enemy minus the boss sprite
                 randomEnemy = Random.Range(0, enemyPrefabs.Length - 1);
-            }
 
-            // instantiate the enemy at random spawn location
-            Instantiate(enemyPrefabs[randomEnemy], GenerateRandomSpawnPosition(), enemyPrefabs[randomEnemy].transform.rotation);
+                // instantiate the enemy at random spawn location
+                Instantiate(enemyPrefabs[randomEnemy], GenerateRandomSpawnPosition(), enemyPrefabs[randomEnemy].transform.rotation);
+            }
         }
 
         // keep track of the number of enemies in play

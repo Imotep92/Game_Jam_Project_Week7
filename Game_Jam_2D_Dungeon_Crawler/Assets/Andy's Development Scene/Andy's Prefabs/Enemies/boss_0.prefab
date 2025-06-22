@@ -722,6 +722,7 @@ GameObject:
   - component: {fileID: 4871363191916245968}
   - component: {fileID: 2616232384148997143}
   - component: {fileID: 4544884050011673712}
+  - component: {fileID: 3998257555748190255}
   - component: {fileID: 3350980179151493238}
   m_Layer: 15
   m_Name: boss_0
@@ -740,8 +741,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.5269853, y: 0.14977129, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.3, y: 1.3, z: 1.3}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8159335944953369828}
   - {fileID: 3690193861521717714}
@@ -804,6 +805,42 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!58 &3998257555748190255
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7144574328638588258}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0.06}
+  m_Radius: 0.31
 --- !u!114 &3350980179151493238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -817,20 +854,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyRigidbody: {fileID: 4544884050011673712}
-  enemyObject: {fileID: 0}
+  enemyObject: {fileID: 991228097124674363}
   enemyAnimator: {fileID: 0}
   enemyMovementSpeed: 3
-  rangeToChasePlayer: 7
+  rangeToChasePlayer: 8
   shootRange: 8
-  enemyHealth: 50
-  enemyPoints: 50
-  playerDamage: 100
+  enemyHealth: 100
+  enemyPoints: 100
+  playerDamage: 20
   enemyShouldShoot: 1
   enemyBullet: {fileID: 7599505847366348637, guid: e6ed385152024414995d1a4cff6bc05a, type: 3}
   keyPrefab: {fileID: 0}
+  pizzaSlicePrefab: {fileID: 0}
   firePosition: {fileID: 3690193861521717714}
   fireRate: 0.5
-  canDropPickup: 1
+  canDropPickup: 0
 --- !u!1 &7395867593990699232
 GameObject:
   m_ObjectHideFlags: 0

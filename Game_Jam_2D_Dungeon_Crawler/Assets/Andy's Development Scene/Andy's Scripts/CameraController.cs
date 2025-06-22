@@ -51,10 +51,13 @@ public class CameraController : MonoBehaviour
         // close the door from the previous room 
         CloseDoor(GameController.gameControllerScript.room - 1);
 
-        //SpawnEnemy();
-
         // increment room number
         GameController.gameControllerScript.room++;
+
+        // play enter room sound
+        int enterRoomSound = 18;
+
+        AudioController.audioControllerScript.PlaySFX(enterRoomSound);
     }
 
 

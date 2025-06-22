@@ -2,9 +2,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
-using System.Threading;
-using System.Collections;
-using Unity.VisualScripting;
 
 
 public class GameController : MonoBehaviour
@@ -21,6 +18,9 @@ public class GameController : MonoBehaviour
     // array for health
     public GameObject[] playerPizzaHealth;
 
+    // array for victory
+    public GameObject[] escapeToVictory;
+
     // reference to background panel
     public GameObject backgroundPanel;
 
@@ -36,6 +36,9 @@ public class GameController : MonoBehaviour
     // reference to the game over screen
     public GameObject gameOverScreen;
 
+    // reference to the victory screen
+    public GameObject victoryScreen;
+
     // reference to the player ui panel
     public GameObject playerUiPanel;
 
@@ -44,9 +47,6 @@ public class GameController : MonoBehaviour
 
     // game time text
     public TMP_Text gameTimeText;
-
-    // reference to displayed 'Lives Text' in the player ui panel
-    ///public TextMeshProUGUI LivesText;
 
     // reference to 'Score integers' assigned to each enemy
     public int score;
@@ -69,7 +69,22 @@ public class GameController : MonoBehaviour
     public const int BOSS_ROOM = 6;
 
     // boss sprite
-    public const int BOSS_SPRITE = 3;
+    // array reference for escape to victory
+    public const int THE_BOSS = 0;
+
+    // EXIT sprite
+    // array reference for escape to victory
+    public const int THE_EXIT = 1;
+
+    // television sprite
+    // array reference for escape to victory
+    public const int THE_TELEVISION = 2;
+
+    // Health pickup
+    public const int HEALTH_BOOST = 5;
+
+    // maximum player health
+    public const int MAXIMUM_HEALTH = 100;
 
 
 
@@ -124,7 +139,7 @@ public class GameController : MonoBehaviour
         // set starting room
         room = 0;
 
-      
+        // set game play flags
         gameOver = true;
 
         inPlay = false;
@@ -144,8 +159,12 @@ public class GameController : MonoBehaviour
         }
 
 
-        if (!gameOver && !gamePawzed)
+        // if the game is not over
+        // and the game is not pawzed
+        // and we are not waiting for the player to enter a room
+        if (!gameOver && !gamePawzed && !hasEnterdRoom)
         {
+            // show the time
             DisplayGameTime();
         }
 
@@ -168,14 +187,19 @@ public class GameController : MonoBehaviour
 
     private void PlayerEnteredRoom()
     {
+        // countdown timer
         enteredRoomTimer -= Time.deltaTime;
 
+        // if the time left is less than or equal to zero 
         if (enteredRoomTimer <= 0)
         {
+            // set timer to zero
             enteredRoomTimer = 0;
 
+            // indicate we are no longer waiting for the player
             hasEnterdRoom = false;
 
+            // spawn the enemy
             CameraController.cameraControllerScript.SpawnEnemy();
         }
     }
@@ -245,25 +269,25 @@ public class GameController : MonoBehaviour
     }
 
 
-    private void TitleScreen()
+    public void TitleScreen()
     {
-        // start playing menu music
-        ///audioPlayer.Play();
-
         // activate the background
         backgroundPanel.SetActive(true);
 
+        // close the victory screen
+        victoryScreen.SetActive(false);
+
         // load the title screen
         titleScreen.SetActive(true);
+
+        // play title music
+        AudioController.audioControllerScript.PlayTitleMusic();
     }
 
 
     // if the play button is pressed
     public void PlayButton()
     {
-        // stop the main menu music
-        audioPlayer.Stop();
-
         // hide the background panel
         backgroundPanel.SetActive(false);
 
@@ -276,13 +300,16 @@ public class GameController : MonoBehaviour
         // display the player ui panel
         playerUiPanel.SetActive(true);
 
+        // play title music
+        AudioController.audioControllerScript.PlayLevelMusic();
+
         Initialise();
     }
 
 
     private void Initialise()
     {
-        // player core
+        // player score
         score = 0;
 
         // player lives
@@ -292,10 +319,12 @@ public class GameController : MonoBehaviour
         playerHealth = 100;
 
         // game time left
-        // 6 minutes or 360 seconds
-        gameTime = 360f;
+        // 3 minutes or 180 seconds
+        gameTime = 180f;
 
-        // set the game in play flag
+        SetTimeFormat();
+
+        // set the game in play flags and enter room timer
         inPlay = true;
 
         gameOver = false;
@@ -344,6 +373,9 @@ public class GameController : MonoBehaviour
 
             // and open the title screen
             titleScreen.SetActive(true);
+
+            // play title music
+            //AudioController.audioControllerScript.PlayTitleMusic();
         }
 
 
@@ -370,13 +402,30 @@ public class GameController : MonoBehaviour
     }
 
 
+    public void Victory()
+    {
+        // game over
+        gameOver = true;
+
+        inPlay = false;
+
+        // activate the background
+        backgroundPanel.SetActive(true);
+
+        // load the victory screen
+        victoryScreen.SetActive(true);
+
+        // and freeze game play
+        Time.timeScale = 0f;
+    }
+
+
     public void GameOver()
     {
         // game over
         gameOver = true;
 
-        // start playing menu music
-        audioPlayer.Play();
+        inPlay = false;
 
         // activate the background
         backgroundPanel.SetActive(true);
@@ -397,16 +446,30 @@ public class GameController : MonoBehaviour
 
     public void DisplayGameTime()
     {
+        // countdown the time
         gameTime -= Time.deltaTime;
 
-        gameTimeText.text = gameTime.ToString("00:00");
+        SetTimeFormat();
 
+        // if the player is out of time
         if (gameTime < 0)
         {
             gameTime = 0f;
 
             GameOver();
         }
+    }
+
+
+    private void SetTimeFormat()
+    {
+        // convert time to minutes and seconds
+        int minutes = ((int)gameTime / 60);
+
+        int seconds = ((int)gameTime % 60);
+
+        // format and display the remaining time
+        gameTimeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 
 

@@ -44,6 +44,12 @@ public class EnemyBullet : MonoBehaviour
         {
             // damage player
             PlayerController.playerControllerScript.DamagePlayer(enemyBulletDamage);
+
+            // play player hurt sound
+            int playerHurtSound = 10;
+
+            AudioController.audioControllerScript.PlaySFX(playerHurtSound);
+
         }
     }
 
